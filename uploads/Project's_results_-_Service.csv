@@ -1,0 +1,725 @@
+Project;Project: Category;Component/s;Summary;Issue Key;Non-Bilible;Assignee;Estimated Hours;Logged Hours
+DTM;Service;-;" Go Diary: Starting ""i"" (from start screen): app chrashes";DTM-6;-;Andrey Kalinin;4;4
+DTM;Service;-;App Senator. Circle app menu fixes (Non-Billable);DTM-21;Yes;Sergey Shcherbakov;1,5;1,5
+DTM;Service;-;AppStore builds;DTM-4;-;Alexandr Borshchenko;0;7,5
+DTM;Service;-;"Bug fixes and ""Next"" button on keypad";DTM-11;-;Andrey Kalinin;1;1
+DTM;Service;-;Build the Senator app with updated certificate;DTM-18;-;Andrey Forkalyuk;1;1
+DTM;Service;-;CR7;DTM-27;-;Oksana Ilchyshyn;-;-
+DTM;Service;-;Certificates updates + new videos added;DTM-14;-;Andrey Kalinin;8;14
+DTM;Service;-;Create a presentation app;DTM-17;-;Sergey Shcherbakov;8;8
+DTM;Service;-;DTM Watch Change request;DTM-1;-;Alexandr Borshchenko;-;-
+DTM;Service;-;Fix some issues with iOS updates;DTM-5;-;Alexandr Borshchenko;0;1,42
+DTM;Service;-;Fixes for crash on Afrixa & pics change;DTM-12;-;Andrey Kalinin;-;6
+DTM;Service;-;Gesund&Fit app: issue with uploading the app;DTM-16;-;Igor Rolinskiy;8;3
+DTM;Service;-;Gesund&Fit new update;DTM-15;-;Dmitriy Saviuk;3;2
+DTM;Service;-;Gesund&Fit: Pictures are not shown (description) (Non-Bilible);DTM-24;Yes;Igor Rolinskiy;1;1
+DTM;Service;-;Gesund&Fit: app is cancelled/stopped on  devices with new Android versions (Non-Bilible);DTM-23;Yes;Igor Rolinskiy;3;9
+DTM;Service;-;Gesung&Fit update;DTM-13;-;-;8;8
+DTM;Service;-;Go Diary iPad: Showing an event on start screen: text begins too near at the left video icon;DTM-10;-;Andrey Kalinin;1;1
+DTM;Service;-;"Go Diary iPad: Starting ""Insights"": app crashes";DTM-9;-;Andrey Kalinin;5;5
+DTM;Service;-;"Go Diary iPad: Starting ""i"" (from start screen): app chrashes";DTM-8;-;Andrey Kalinin;3;3
+DTM;Service;-;"Go Diary: Button ""Delete entry"" in calendar module positioned wrong";DTM-7;-;Andrey Kalinin;4;4
+DTM;Service;-;New contents import;DTM-3;-;Alexandr Borshchenko;-;4
+DTM;Service;-;PM's work on Gesund&Fit project - Non-Billable;DTM-19;Yes;Yuriy  Peslyak;8;4
+DTM;Service;-;Presentation app: remove status bar and implement the app icon ;DTM-20;-;Sergey Shcherbakov;1;1
+DTM;Service;-;iOS 7 bugfix & optimization;DTM-2;-;Alexandr Borshchenko;8;20
+DTM;Service;"CR7; IOS";GO Diary: check the app for IOS10 compatibility;DTM-25;-;Oksana Ilchyshyn;2;-
+DTM;Service;"CR7; IOS";GO Diary: check the contact form;DTM-26;-;Oksana Ilchyshyn;-;-
+DTM;Service;Project Management;DTM PM (Non-Billable);DTM-22;Yes;Oksana Ilchyshyn;32;46,58
+Dohyo Phase II;Service;-;Non billable: discussing the requirements for Phase 2 and preparing a schematic model of the system ;DPI-12;Yes;Yuriy  Peslyak;16;51
+Dohyo Phase II;Service;-;Non-billable: PM's work;DPI-14;Yes;Yuriy  Peslyak;11;35
+Dohyo Phase II;Service;"Admin; Backend";Non billable: Please setup Doker with virtual servers for Dev and Staging environment;DPI-11;Yes;Oleg Timoshenko;-;-
+Dohyo Phase II;Service;Backend;Football teams: New season update for team names and shirts;DPI-5;-;Sergey Shcherbakov;5;5,5
+Dohyo Phase II;Service;Backend;Joining Rugby contest: can't submit scores;DPI-2;-;Yuriy  Peslyak;2;-
+Dohyo Phase II;Service;Backend;New back end as Parse terminating;DPI-1;-;Anton Shyltsev;-;-
+Dohyo Phase II;Service;Backend;Non-billable: Remove all existing contests from last season;DPI-16;Yes;Anton Shyltsev;1;-
+Dohyo Phase II;Service;Backend;Rugby teams: New season update for team names and jerseys;DPI-4;-;Sergey Shcherbakov;7;3,5
+Dohyo Phase II;Service;Backend;Start date for Aviva Premiership doesn't automatically update;DPI-22;Yes;Oleg Timoshenko;-;-
+Dohyo Phase II;Service;Backend;The app should get matches by a gameweek number, not by dates ;DPI-20;-;Anton Shyltsev;3;3
+Dohyo Phase II;Service;Backend;The fixtures are not showing when creating a contest for Aviva Premiership;DPI-21;-;Oleg Timoshenko;2;1
+Dohyo Phase II;Service;Backend;Update season dates;DPI-7;-;Anton Shyltsev;0,25;0,12
+Dohyo Phase II;Service;Backend;Users couldn't submit predictions;DPI-19;-;Anton Shyltsev;24;18
+Dohyo Phase II;Service;"Backend; iOS";Improve app speed and performance;DPI-6;-;Oleg Kuzenko;-;-
+Dohyo Phase II;Service;"Backend; iOS";Leaderboard points scoring calculations and parsing ;DPI-3;-;Yuriy  Peslyak;1;-
+Dohyo Phase II;Service;"Backend; iOS";The accumulator is not exact;DPI-8;-;Anton Shyltsev;2;2
+Dohyo Phase II;Service;"Backend; iOS";Update the contest lists to show in chronological order and prioritise certain contests;DPI-10;-;Oleg Kuzenko;1;-
+Dohyo Phase II;Service;"Design; iOS";Update Intro and tutorial (Screen 1);DPI-15;-;Andrew Horuzhii;2;2
+Dohyo Phase II;Service;iOS;New feature: Pop up for accumulator;DPI-9;-;Yuriy  Peslyak;-;-
+Dohyo Phase II;Service;iOS;Non-billable: Whatsapp invite not working;DPI-17;Yes;Sergey Shcherbakov;1;1
+Dohyo Phase II;Service;iOS;Non-billable: Whatsapp invite not working;DPI-18;Yes;Sergey Shcherbakov;1;-
+HealthLife - GLAMCOM LP;Service;Android; Loading screen - Android;HEAT-137;-;Igor Rolinskiy;1;1
+HealthLife - GLAMCOM LP;Service;Android;Access blocked & secure code screens - Android;HEAT-142;-;Igor Rolinskiy;1;1
+HealthLife - GLAMCOM LP;Service;Android;Add vitamins settings (functional) - Android;HEAT-97;-;Igor Rolinskiy;6;6
+HealthLife - GLAMCOM LP;Service;Android;Add vitamins settings UI - Android;HEAT-38;-;Polina Karpenko;6;6
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (Items) - Android;HEAT-272;-;Igor Rolinskiy;0,5;0,25
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (adding item) - Android;HEAT-275;-;Igor Rolinskiy;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (categories) - Android;HEAT-273;-;Igor Rolinskiy;0,5;0,25
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (checkout process - data) - Android;HEAT-284;-;Igor Rolinskiy;1,5;1,5
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (checkout process - pay button) - Android;HEAT-286;-;Igor Rolinskiy;0,5;0,33
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (checkout process - transition) - Android;HEAT-285;-;Igor Rolinskiy;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (delete) - Android;HEAT-274;-;Igor Rolinskiy;0,5;0,33
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (go to checkout) - Android;HEAT-276;-;Igor Rolinskiy;0,5;0,25
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (log out / app folding) - Android;HEAT-277;-;Igor Rolinskiy;1,5;1,5
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (other pages) - Android;HEAT-281;-;Igor Rolinskiy;3;3
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (reorder) - Android;HEAT-278;-;Igor Rolinskiy;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (scheduler) - Android;HEAT-283;-;Igor Rolinskiy;1;1
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (shopping cart) - Android;HEAT-282;-;Igor Rolinskiy;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (spent time) - Android;HEAT-280;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer (your orders) - Android;HEAT-279;-;Igor Rolinskiy;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Android;AppsFlyer integration - Android;HEAT-270;-;Igor Rolinskiy;3;2
+HealthLife - GLAMCOM LP;Service;Android;Billable meetings;HEAT-74;-;Igor Rolinskiy;1;2,5
+HealthLife - GLAMCOM LP;Service;Android;Checkout (payment type, accordions & validation) - Android;HEAT-105;-;Igor Rolinskiy;5;5
+HealthLife - GLAMCOM LP;Service;Android;Checkout - Android;HEAT-50;-;Igor Rolinskiy;20;22,5
+HealthLife - GLAMCOM LP;Service;Android;Checkout - country/state - Android;HEAT-111;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;Checkout new screens - Android;HEAT-104;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;Choose your bonus - Android;HEAT-99;-;Igor Rolinskiy;4;3,75
+HealthLife - GLAMCOM LP;Service;Android;Contact page - Android;HEAT-14;-;Igor Rolinskiy;8;11
+HealthLife - GLAMCOM LP;Service;Android;Decline screen - Android;HEAT-124;-;Igor Rolinskiy;2;-
+HealthLife - GLAMCOM LP;Service;Android;Favorite - Android;HEAT-20;-;Dmitriy Saviuk;6;-
+HealthLife - GLAMCOM LP;Service;Android;Filter orders - Android;HEAT-126;-;Igor Rolinskiy;1;1
+HealthLife - GLAMCOM LP;Service;Android;Guide - Android;HEAT-56;-;Dmitriy Saviuk;12;-
+HealthLife - GLAMCOM LP;Service;Android;Information - Android;HEAT-129;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;Log Out (functional) - Android;HEAT-40;-;Igor Rolinskiy;2;-
+HealthLife - GLAMCOM LP;Service;Android;Login screen - Android;HEAT-116;-;Igor Rolinskiy;1,5;1,5
+HealthLife - GLAMCOM LP;Service;Android;Main menu - Android;HEAT-2;-;Igor Rolinskiy;16;16
+HealthLife - GLAMCOM LP;Service;Android;Meetings & Brainstorms;HEAT-63;-;Igor Rolinskiy;0;19,25
+HealthLife - GLAMCOM LP;Service;Android;Meetings with customer - Android;HEAT-108;-;Igor Rolinskiy;10;1
+HealthLife - GLAMCOM LP;Service;Android;Multilanguage interface - Android;HEAT-59;-;Igor Rolinskiy;6;-
+HealthLife - GLAMCOM LP;Service;Android;Notification details - Android;HEAT-93;-;Igor Rolinskiy;6;6
+HealthLife - GLAMCOM LP;Service;Android;Notifications list - Android;HEAT-11;-;Igor Rolinskiy;6;4
+HealthLife - GLAMCOM LP;Service;Android;Notifications, Snooze duration, Alarm sounds - Android;HEAT-79;-;Igor Rolinskiy;3;3
+HealthLife - GLAMCOM LP;Service;Android;Pending screen - Android;HEAT-122;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;Personal Information - Android;HEAT-23;-;Igor Rolinskiy;4;5
+HealthLife - GLAMCOM LP;Service;Android;Product page - Android;HEAT-29;-;Igor Rolinskiy;16;19,5
+HealthLife - GLAMCOM LP;Service;Android;Re-authorization - Android;HEAT-140;-;Igor Rolinskiy;3;3
+HealthLife - GLAMCOM LP;Service;Android;Regional settings - Android;HEAT-132;-;Igor Rolinskiy;4;3,5
+HealthLife - GLAMCOM LP;Service;Android;Schedule start date - Android;HEAT-47;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;Search Feature - Android;HEAT-71;-;Igor Rolinskiy;1,75;2,25
+HealthLife - GLAMCOM LP;Service;Android;Select product - Android;HEAT-5;-;Dmitriy Saviuk;24;24
+HealthLife - GLAMCOM LP;Service;Android;Set secure code (functional) - Android;HEAT-131;-;Igor Rolinskiy;2,5;2,5
+HealthLife - GLAMCOM LP;Service;Android;Set secure code UI - Android;HEAT-130;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;Shedule - Android;HEAT-17;-;Polina Karpenko;20;20
+HealthLife - GLAMCOM LP;Service;Android;Shipping method - Android;HEAT-114;-;Igor Rolinskiy;1;-
+HealthLife - GLAMCOM LP;Service;Android;Shipping/Billing inputs (Checkout) - Android;HEAT-109;-;Igor Rolinskiy;1;1
+HealthLife - GLAMCOM LP;Service;Android;Shopping cart - Android;HEAT-72;-;Igor Rolinskiy;20;20
+HealthLife - GLAMCOM LP;Service;Android;Success pay page (functional) - Android;HEAT-96;-;Igor Rolinskiy;6;-
+HealthLife - GLAMCOM LP;Service;Android;Success pay page UI - Android;HEAT-53;-;Igor Rolinskiy;6;6
+HealthLife - GLAMCOM LP;Service;Android;Swipe for delete & validation (schedule) - Android;HEAT-119;-;Igor Rolinskiy;1,5;1,5
+HealthLife - GLAMCOM LP;Service;Android;Swipe for delete - Android;HEAT-100;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;Time and dose - Android;HEAT-41;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;Time settings - Android;HEAT-44;-;Igor Rolinskiy;2;2
+HealthLife - GLAMCOM LP;Service;Android;Track package - Android;HEAT-32;-;Igor Rolinskiy;6;6
+HealthLife - GLAMCOM LP;Service;Android;View order details - Android;HEAT-35;-;Igor Rolinskiy;6;5,5
+HealthLife - GLAMCOM LP;Service;Android;Your orders - Android;HEAT-8;-;Igor Rolinskiy;12;12
+HealthLife - GLAMCOM LP;Service;Android;Ïåðåäà÷à ïðîåêòà (Non Billable);HEAT-76;Yes;Igor Rolinskiy;40;29
+HealthLife - GLAMCOM LP;Service;Backend (Non-Billable);No ability to make purchase - invalid data error;HEAT-238;Yes;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Backend (Non-Billable);[Backend] Discount coupons don't work;HEAT-183;Yes;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Backend (Non-Billable);[Backend] No possibility to pay for order;HEAT-184;Yes;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Backend (Non-Billable);[Backend] Successfull orders don't appear in My Orders tab;HEAT-185;Yes;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;"""Add free vitamins button"" called ""Choose your bonus"" ";HEAT-243;Yes;Aleksey Mitiev;0,33;0,33
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;"""shopping cart"" button could be hidden by search";HEAT-197;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Add vitamin form could be closed with empty required field using save button ;HEAT-250;Yes;Aleksey Mitiev;0,33;0,33
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Alarm Sound has very strict touchable area (Non-Billable);HEAT-159;Yes;Alexandra Tsyrkun;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;App crashes after login (Non-Billable);HEAT-158;Yes;Igor Rolinskiy;0,25;0,25
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;App crashes after saving Add vitamin (Non-Billable);HEAT-154;Yes;Igor Rolinskiy;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Argentina selected as default country for all new users ;HEAT-218;Yes;Igor Rolinskiy;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Billing address could be replaced by shipping address;HEAT-216;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Bonuses mechanizm isn't fully meet specification requeirements;HEAT-188;Yes;Igor Rolinskiy;-;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Both words at the name of app written together;HEAT-213;Yes;Aleksey Mitiev;0,17;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;"Change the places of buttons ""Search"" and ""Shopping cart"" at ""Select product"" screen";HEAT-245;Yes;Igor Rolinskiy;0,17;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Contact online chat doesn't work;HEAT-157;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Contact us incorrect screen title;HEAT-240;Yes;Aleksey Mitiev;0,33;0,33
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Crash after tapping on Proceed to Checkout;HEAT-189;Yes;Igor Rolinskiy;-;-
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Crash while adding product to the Shopping cart;HEAT-262;Yes;Igor Rolinskiy;-;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Crash while tapping on Send email button;HEAT-265;Yes;Igor Rolinskiy;-;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Delete notification button should look like garbage bin;HEAT-224;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Dosage of some products hidden by dots;HEAT-246;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Even if different Billing Address switcher is off it's data is transferred to order details instead of Shipping address;HEAT-261;Yes;Igor Rolinskiy;-;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Language setting - mismatches with design;HEAT-222;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Language settings should be shown in headers;HEAT-253;Yes;Igor Rolinskiy;-;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Language/Currency screens title is Snooze Duration (Non-Billable);HEAT-156;Yes;Alexandra Tsyrkun;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Logo of the App;HEAT-256;Yes;Igor Rolinskiy;-;-
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;"Mismatches at ""Add Vitamin"" screen ";HEAT-247;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Mismatches in Contact Us screen;HEAT-199;Yes;Aleksey Mitiev;0,33;0,33
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Mismatches in Main menu;HEAT-198;Yes;Alexandra Tsyrkun;0,17;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Mismatches in Scheduler screen;HEAT-200;Yes;Aleksey Mitiev;0,33;0,33
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;"Mismatches on ""Thank you for your order"" screen";HEAT-252;Yes;Igor Rolinskiy;0,33;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Mismatches with design at Personal Information screen;HEAT-217;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;No counter in Shipping Bag after Reorder;HEAT-263;Yes;Igor Rolinskiy;-;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;No validation in dosage field - user able to add vitamin with dosage 0.0;HEAT-227;Yes;Aleksey Mitiev;-;-
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable:  Title of Add Vitamin screen;HEAT-162;Yes;Igor Rolinskiy;0,25;0,25
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable: Cash in My orders;HEAT-194;Yes;Alexandra Tsyrkun;3;3
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable: Continue Shopping button ;HEAT-165;Yes;Alexandra Tsyrkun;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable: Different Billing address fields are copied from Shipping Address;HEAT-176;Yes;Alexandra Tsyrkun;0,25;0,25
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable: No orders in My orders tab for Android 6;HEAT-187;Yes;Alexandra Tsyrkun;2;2
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable: There are no validation in Personal Information section fields;HEAT-164;Yes;Alexandra Tsyrkun;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable: Title of Personal Information/Security Code/Payment Settings screens;HEAT-163;Yes;Alexandra Tsyrkun;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable: User is able to choose the time that already passed in Request Call Back feature;HEAT-161;Yes;Alexandra Tsyrkun;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable: Validation for Birthday / Checkout 2/3;HEAT-191;Yes;Polina Karpenko;2;2
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Non-Billable: Validation of Address, City, ZIP in Biling Address / Checkout 2/3;HEAT-192;Yes;Alexandra Tsyrkun;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Not informative notification about error  appears when user enters not valid email with valid order id;HEAT-225;Yes;Aleksey Mitiev;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Only the last treatment in schedule displayed in push notification;HEAT-229;Yes;Igor Rolinskiy;0,17;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Payment Setting screen title is incorrect.;HEAT-239;Yes;Pavel Youtish;0,17;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Problems with choosing ACH card type due to different Billing Address switcher issue;HEAT-260;Yes;Igor Rolinskiy;-;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Product list button doesn't work after that as user returns to the step 1/3;HEAT-249;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Request Call Back doesn't work (Non-Billable);HEAT-160;Yes;Alexandra Tsyrkun;0,25;0,25
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Save button looks not as designed at Security Code screen;HEAT-219;Yes;Aleksey Mitiev;-;-
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Search doesn't performed for part filled words ;HEAT-231;Yes;Aleksey Mitiev;0,17;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Shipping Method changed after returning  from Step 2/3 to Step 1/3 of Checkout;HEAT-264;Yes;Igor Rolinskiy;-;0,33
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;The app crashes after tap on Shipping method button (checkout step 1/3);HEAT-251;Yes;Aleksey Mitiev;0,17;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;The app crashes during the launch ;HEAT-195;Yes;Aleksey Mitiev;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;The field Secure code looks like active field when Security Code option is disabled ;HEAT-220;Yes;Aleksey Mitiev;0,33;0,33
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;"The radio button looks like checkbox at the ""Shipping Method"" popup";HEAT-244;Yes;Aleksey Mitiev;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;The title of screen with notification details should be the same as Name of notification;HEAT-223;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;The virtual keyboard doesn't hidden after switching the tab;HEAT-201;Yes;Aleksey Mitiev;-;-
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;"There are no titles in popups ""Repetition"" and ""Days""";HEAT-248;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;There is no notification about successful setting / changing Secure Code;HEAT-221;Yes;Aleksey Mitiev;-;-
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Title of Product Categories screen (Non-Billable);HEAT-153;Yes;Alexandra Tsyrkun;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Two fields Repetition in Add Vitamin screen (Non-Billable);HEAT-155;Yes;-;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Typo in validation message text;HEAT-241;Yes;Aleksey Mitiev;0,17;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;User able to set Birth Date in future;HEAT-214;Yes;Alexandra Tsyrkun;0,17;0,33
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;User is unable to open the app by tap on push notification;HEAT-228;Yes;Aleksey Mitiev;-;-
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;User unable to select dosage for additional fields;HEAT-226;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Validation for  ZIP in Shipping&Biling Address / Checkout 2/3;HEAT-190;Yes;Igor Rolinskiy;-;-
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Validation of Credit Card / Checkout 3/3;HEAT-193;Yes;Polina Karpenko;1;1
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Virtual keyboard is always opened when user goes to Personal Information screen;HEAT-215;Yes;Aleksey Mitiev;0,17;0,17
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Wrong Title of Product Info screen ;HEAT-242;Yes;Aleksey Mitiev;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs Android - Non Billable;Wrong title of search results screen;HEAT-230;Yes;Aleksey Mitiev;0,33;0,33
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Ability to enter birth date in future;HEAT-210;Yes;Stanislav Reznichenko;1;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Add New Vitamin to a Schedule functionality if user isn't logged in;HEAT-257;Yes;Stanislav Reznichenko;-;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Alarm sound section isn't active in Settings screen;HEAT-172;Yes;Stanislav Reznichenko;1;0
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Contact online chat doesn't work;HEAT-173;Yes;Stanislav Reznichenko;1;1
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Crash after adding to and tapping on the Shopping bag;HEAT-307;Yes;Alexandr Borshchenko;-;0,5
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Currency & Language order;HEAT-182;Yes;Sergey Shcherbakov;2;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Data can't be changed after entering on Add vitamin screen;HEAT-308;Yes;Stanislav Reznichenko;-;-
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Difference with mockup in Main Menu;HEAT-255;Yes;Stanislav Reznichenko;-;0,5
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Different Billing address fields are copied from Shipping Address;HEAT-175;Yes;Sergey Shcherbakov;1;3,5
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Entered data in Billing address fields isn't saved;HEAT-171;Yes;Sergey Shcherbakov;4;5
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Error while making payment if Country isn't USA;HEAT-258;Yes;Stanislav Reznichenko;-;3
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Fields of the Billing address section are hidden after return;HEAT-177;Yes;Sergey Shcherbakov;2;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Incorrect application name on main menu;HEAT-232;Yes;Sergey Shcherbakov;1;1
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Language isn't changed after applying regional settings;HEAT-235;Yes;Sergey Shcherbakov;82;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Language should change in headers according to the language chosen in Regional settings;HEAT-254;Yes;Oleg Kuzenko;-;3
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Menu title differences (Shopping Cart - Shopping Bag);HEAT-208;Yes;Polina Karpenko;-;0
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Misspell in validation in checkout step 2/3;HEAT-174;Yes;Sergey Shcherbakov;1;1
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Months titles failed to fit in Scheduler;HEAT-167;Yes;Sergey Shcherbakov;2;1
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;No ability to add Vitmin to Schedule - incorrect API request;HEAT-204;Yes;Sergey Shcherbakov;-;4
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;No ability to enter more than three symbols in Billing Address - State;HEAT-206;Yes;Sergey Shcherbakov;-;0
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;No orders in My orders tab;HEAT-186;Yes;Sergey Shcherbakov;4;4
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Non user-friendly validation on Add Vitamin screen;HEAT-203;Yes;Sergey Shcherbakov;-;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Products order and font size in Select product;HEAT-259;Yes;Stanislav Reznichenko;-;0,5
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Quick search issue in categories list;HEAT-211;Yes;Sergey Shcherbakov;-;3
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Request Call Back couldn't be sent;HEAT-181;Yes;Sergey Shcherbakov;-;-
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Request callback - no ability to add phone  number;HEAT-236;Yes;Sergey Shcherbakov;4;4
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Security Code screen fields behaviour;HEAT-234;Yes;Stanislav Reznichenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;There are no logo of the app on the shortcut and misspell in the app name;HEAT-166;Yes;Polina Karpenko;1;-
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;There is no any ability to clear shopping cart;HEAT-212;Yes;Polina Karpenko;-;0
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;There is no possibility to edit or clear First or Last Name fields if max symbols value inputted;HEAT-170;Yes;Sergey Shcherbakov;2;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Time field isn't active in Add new vitamin screen;HEAT-169;Yes;Sergey Shcherbakov;6;6
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Title of Add Vitamin screen;HEAT-168;Yes;Sergey Shcherbakov;2;1
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;"Typo in ""Add Vitamin"" screen title";HEAT-202;Yes;Sergey Shcherbakov;0;0
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Typo in sidebar menu item;HEAT-205;Yes;Sergey Shcherbakov;-;0
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Typos in validation messages;HEAT-209;Yes;Sergey Shcherbakov;-;1,5
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;UI issue on Information screen;HEAT-237;Yes;Sergey Shcherbakov;2;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;UI issue on personal information screen;HEAT-207;Yes;Sergey Shcherbakov;-;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;User is able to use the system on iPhone 5;HEAT-196;Yes;Sergey Shcherbakov;3;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;User unable to clear zip code in personal information;HEAT-233;Yes;Sergey Shcherbakov;2;2
+HealthLife - GLAMCOM LP;Service;Bugs iOS - Non Billable;Validation for State field;HEAT-180;Yes;Sergey Shcherbakov;2;2
+HealthLife - GLAMCOM LP;Service;Management & Design;Design consulting (UI/UX);HEAT-69;-;Polina Karpenko;0;56,5
+HealthLife - GLAMCOM LP;Service;Management & Design;Design meetings and communications (UI/UX);HEAT-67;-;Polina Karpenko;0;34
+HealthLife - GLAMCOM LP;Service;Management & Design;Meetings & Brainstorms;HEAT-75;-;Igor Kravchenko;102;6
+HealthLife - GLAMCOM LP;Service;Management & Design;Meetings with customer - PM;HEAT-133;-;Polina Karpenko;8;6,45
+HealthLife - GLAMCOM LP;Service;Management & Design;Project facilitation & communication ;HEAT-65;-;Polina Karpenko;263;194
+HealthLife - GLAMCOM LP;Service;Management & Design;TEST;HEAT-266;Yes;Polina Karpenko;0,27;0
+HealthLife - GLAMCOM LP;Service;Management & Design;TEST_BUG;HEAT-267;-;Polina Karpenko;0,07;0
+HealthLife - GLAMCOM LP;Service;Management & Design;TET BUG 2;HEAT-268;-;Polina Karpenko;0,2;-
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;API check (Non-Billable);HEAT-146;Yes;-;4;4
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;AppsFlyer investigation - iOS (Non-Billable);HEAT-305;Yes;Stanislav Reznichenko;15;3
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Bugfixing - Android (Non-Billable);HEAT-150;Yes;Igor Rolinskiy;0,4;8
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Bugfixing - iOS(Non-Billable);HEAT-151;Yes;Sergey Shcherbakov;0,4;-
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Familiarity with the project - estimation (non-billable) - iOS;HEAT-304;Yes;Stanislav Reznichenko;1;4
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Follow up the project;HEAT-179;Yes;Sergey Nemesh;50;18
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Investigate iOS 10 - iPAD (Non-Billable);HEAT-306;Yes;Stanislav Reznichenko;35;35
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Meetings (Non-Billable);HEAT-77;Yes;Polina Karpenko;41;4,5
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Meetings with customer (Non-Billable);HEAT-148;Yes;Oleg Timoshenko;1;1
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Non Billable tasks;HEAT-91;Yes;Konstantin Sydiak;40;36
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Non-Billable: Follow up;HEAT-178;Yes;Sergey Nemesh;50;29
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;PM - Non-Billable activities;HEAT-147;Yes;Polina Karpenko;98;123,4
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;PM/Design- non-billable activities;HEAT-70;Yes;Polina Karpenko;1;71,5
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Planning & estimation new CR (Non-Billable);HEAT-81;Yes;Oleg Kuzenko;4;3
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Planning & estimation new CR (Non-Billable);HEAT-82;Yes;Igor Rolinskiy;3;3
+HealthLife - GLAMCOM LP;Service;Non-Billable tasks;Technical Specification -  Non Billable;HEAT-134;Yes;Polina Karpenko;40;60,17
+HealthLife - GLAMCOM LP;Service;Stories;AppsFlyer;HEAT-269;-;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Change Requests;HEAT-84;-;-;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Checkout;HEAT-49;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Checkout - new features;HEAT-102;-;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Contact page;HEAT-13;-;Igor Kravchenko;0;8
+HealthLife - GLAMCOM LP;Service;Stories;Design consulting;HEAT-68;-;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Favorite;HEAT-19;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Guide;HEAT-55;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Information;HEAT-127;-;-;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Login/Logout;HEAT-37;-;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Main menu;HEAT-1;-;Igor Kravchenko;0;8
+HealthLife - GLAMCOM LP;Service;Stories;Meetings;HEAT-78;Yes;Polina Karpenko;3;-
+HealthLife - GLAMCOM LP;Service;Stories;Meetings, code review, planning;HEAT-61;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Multilanguage interface;HEAT-58;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;My orders;HEAT-120;-;-;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Non Billable tasks;HEAT-89;Yes;-;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Notifications;HEAT-10;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Product page;HEAT-28;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Project facilitation & communication ;HEAT-64;-;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Schedule (new features);HEAT-117;-;-;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Secure code - new features;HEAT-138;-;-;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Select product;HEAT-4;-;Igor Kravchenko;12;0
+HealthLife - GLAMCOM LP;Service;Stories;Settings;HEAT-22;-;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Shedule;HEAT-16;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Shopping bag - new features;HEAT-43;-;Polina Karpenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Shopping cart;HEAT-25;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Success pay page;HEAT-52;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Track package;HEAT-31;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;View order details;HEAT-34;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Stories;Your orders;HEAT-7;-;Igor Kravchenko;-;-
+HealthLife - GLAMCOM LP;Service;Testing;Android build testing;HEAT-149;-;Alexandra Tsyrkun;40;68
+HealthLife - GLAMCOM LP;Service;Testing;AppsFlyer (android) testing;HEAT-302;-;Polina Karpenko;3;-
+HealthLife - GLAMCOM LP;Service;Testing;AppsFlyer (iOS) testing;HEAT-303;-;Polina Karpenko;3;-
+HealthLife - GLAMCOM LP;Service;Testing;Hockeyapp - creation;HEAT-144;-;Roman Gagarin;0,5;0,5
+HealthLife - GLAMCOM LP;Service;Testing;Partial Android build testing ;HEAT-145;-;Alexandra Tsyrkun;4,5;4,5
+HealthLife - GLAMCOM LP;Service;Testing;Partial iOS build testing ;HEAT-135;-;Alexandra Tsyrkun;7;7
+HealthLife - GLAMCOM LP;Service;Testing;iOS build testing;HEAT-152;-;Alexandra Tsyrkun;40;44,5
+HealthLife - GLAMCOM LP;Service;iOS; AppsFlyer (adding item) - iOS;HEAT-290;-;Alexandr Borshchenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;iOS;Access blocked & secure code screens - iOs;HEAT-141;-;Sergey Shcherbakov;1;1
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (Items) - iOS;HEAT-287;-;Alexandr Borshchenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (categories) - iOS;HEAT-288;-;Alexandr Borshchenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (checkout process - data) - iOS;HEAT-299;-;Alexandr Borshchenko;5;1,33
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (checkout process - pay button) - iOS;HEAT-301;-;Alexandr Borshchenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (checkout process - transition) - iOS;HEAT-300;-;Alexandr Borshchenko;0,5;0,83
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (delete) - iOS;HEAT-289;-;Alexandr Borshchenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (go to checkout) - iOS;HEAT-291;-;Alexandr Borshchenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (lof out / app folding) - iOS;HEAT-292;-;Alexandr Borshchenko;0,5;1
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (other pages) - iOS;HEAT-297;-;Alexandr Borshchenko;3;5,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (reorder) - iOS;HEAT-293;-;Alexandr Borshchenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (scheduler) - iOS;HEAT-298;-;Alexandr Borshchenko;1,5;1
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (shopping cart) - iOS;HEAT-296;-;Alexandr Borshchenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (spent time) - iOS;HEAT-295;-;Alexandr Borshchenko;1;3,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer (your orders) - iOS;HEAT-294;-;Alexandr Borshchenko;0,5;0,5
+HealthLife - GLAMCOM LP;Service;iOS;AppsFlyer integration - iOS;HEAT-271;-;Alexandr Borshchenko;3;7
+HealthLife - GLAMCOM LP;Service;iOS;Billable meetings;HEAT-73;-;Oleg Kuzenko;2;2
+HealthLife - GLAMCOM LP;Service;iOS;Checkout (payment type, accordions & validation) - iOS;HEAT-106;-;Sergey Shcherbakov;5;-
+HealthLife - GLAMCOM LP;Service;iOS;Checkout - country/state - iOS;HEAT-112;-;Sergey Shcherbakov;2;-
+HealthLife - GLAMCOM LP;Service;iOS;Checkout - iOS;HEAT-51;-;Oleg Kuzenko;28;33
+HealthLife - GLAMCOM LP;Service;iOS;Checkout new screens - iOS;HEAT-103;-;Sergey Shcherbakov;2;-
+HealthLife - GLAMCOM LP;Service;iOS;Choose your bonus - iOS;HEAT-46;-;Sergey Shcherbakov;4;4
+HealthLife - GLAMCOM LP;Service;iOS;Contact page - iOS;HEAT-15;-;Sergey Shcherbakov;10;6
+HealthLife - GLAMCOM LP;Service;iOS;Decline screen - iOS;HEAT-123;-;Sergey Shcherbakov;2;2
+HealthLife - GLAMCOM LP;Service;iOS;Favorite - iOS;HEAT-21;-;Oleg Kuzenko;12;-
+HealthLife - GLAMCOM LP;Service;iOS;Filter orders - iOS;HEAT-125;-;Oleg Kuzenko;2;2
+HealthLife - GLAMCOM LP;Service;iOS;Guide - iOS;HEAT-57;-;Oleg Kuzenko;16;-
+HealthLife - GLAMCOM LP;Service;iOS;Information - iOS;HEAT-128;-;Sergey Shcherbakov;2;13
+HealthLife - GLAMCOM LP;Service;iOS;Loading screen - iOs;HEAT-136;-;Sergey Shcherbakov;1;1
+HealthLife - GLAMCOM LP;Service;iOS;Log Out (functional) - iOS;HEAT-98;-;Oleg Kuzenko;2;-
+HealthLife - GLAMCOM LP;Service;iOS;Login screen - iOS;HEAT-115;-;Sergey Shcherbakov;1,5;1,5
+HealthLife - GLAMCOM LP;Service;iOS;Main menu - iOS;HEAT-3;-;Oleg Kuzenko;12;8
+HealthLife - GLAMCOM LP;Service;iOS;Meetings & Brainstorms;HEAT-62;Yes;Oleg Kuzenko;1,5;1,5
+HealthLife - GLAMCOM LP;Service;iOS;Meetings with customer - iOS;HEAT-107;-;Oleg Kuzenko;10;-
+HealthLife - GLAMCOM LP;Service;iOS;Multilanguage interface - iOS;HEAT-60;-;Oleg Kuzenko;12;12
+HealthLife - GLAMCOM LP;Service;iOS;Notification details - iOS;HEAT-92;-;Sergey Shcherbakov;8;8
+HealthLife - GLAMCOM LP;Service;iOS;Notifications list - iOS;HEAT-12;-;Sergey Shcherbakov;8;12
+HealthLife - GLAMCOM LP;Service;iOS;Notifications, Snooze duration, Alarm sounds - iOS;HEAT-86;-;Oleg Kuzenko;3;-
+HealthLife - GLAMCOM LP;Service;iOS;Pending screen - iOS;HEAT-121;-;Sergey Shcherbakov;2;3
+HealthLife - GLAMCOM LP;Service;iOS;Personal Information - iOS;HEAT-24;-;Oleg Kuzenko;4;-
+HealthLife - GLAMCOM LP;Service;iOS;Personal information - iOS;HEAT-80;-;Oleg Kuzenko;4;4
+HealthLife - GLAMCOM LP;Service;iOS;Product page - iOS;HEAT-30;-;Oleg Kuzenko;22;32
+HealthLife - GLAMCOM LP;Service;iOS;Re-authorization - iOs;HEAT-139;-;Sergey Shcherbakov;3;3
+HealthLife - GLAMCOM LP;Service;iOS;Regional settings - iOS;HEAT-85;-;Oleg Kuzenko;6;6
+HealthLife - GLAMCOM LP;Service;iOS;Research backend bugs (Non Billable);HEAT-143;Yes;Sergey Shcherbakov;3;3
+HealthLife - GLAMCOM LP;Service;iOS;Schedule start date - iOS;HEAT-48;-;Oleg Kuzenko;8;8
+HealthLife - GLAMCOM LP;Service;iOS;Security code (functional) - iOS;HEAT-88;-;Sergey Shcherbakov;6;6
+HealthLife - GLAMCOM LP;Service;iOS;Security code UI - iOS;HEAT-87;-;Sergey Shcherbakov;6;6
+HealthLife - GLAMCOM LP;Service;iOS;Select product - iOS;HEAT-6;-;Oleg Kuzenko;28;30
+HealthLife - GLAMCOM LP;Service;iOS;Shedule - iOS;HEAT-18;-;Konstantin Sydiak;28;35
+HealthLife - GLAMCOM LP;Service;iOS;Shipping method - iOS;HEAT-113;-;Sergey Shcherbakov;1;-
+HealthLife - GLAMCOM LP;Service;iOS;Shipping/Billing inputs (Checkout) - iOS;HEAT-110;-;Sergey Shcherbakov;1;-
+HealthLife - GLAMCOM LP;Service;iOS;Shopping cart - iOS;HEAT-27;-;Oleg Kuzenko;24;28
+HealthLife - GLAMCOM LP;Service;iOS;Success pay page (functional) - iOS;HEAT-95;-;Sergey Shcherbakov;8;8
+HealthLife - GLAMCOM LP;Service;iOS;Success pay page UI - iOS;HEAT-54;-;Sergey Shcherbakov;8;9
+HealthLife - GLAMCOM LP;Service;iOS;Swipe for delete & validation (schedule) - iOS;HEAT-118;-;Oleg Kuzenko;1,5;-
+HealthLife - GLAMCOM LP;Service;iOS;Swipe for delete - iOS;HEAT-101;-;Sergey Shcherbakov;3;-
+HealthLife - GLAMCOM LP;Service;iOS;Time and dose - iOS;HEAT-42;-;Oleg Kuzenko;6;6
+HealthLife - GLAMCOM LP;Service;iOS;Time settings - iOS;HEAT-45;-;Oleg Kuzenko;6;-
+HealthLife - GLAMCOM LP;Service;iOS;Track package (link - track site & design) - iOS;HEAT-90;-;Sergey Shcherbakov;6;8
+HealthLife - GLAMCOM LP;Service;iOS;Track package (locate details) - iOS;HEAT-33;-;Oleg Kuzenko;7;7
+HealthLife - GLAMCOM LP;Service;iOS;View order details - iOS;HEAT-36;-;Oleg Kuzenko;12;18
+HealthLife - GLAMCOM LP;Service;iOS;Vitamins settings (functional) - iOS;HEAT-94;-;Oleg Kuzenko;8;8
+HealthLife - GLAMCOM LP;Service;iOS;Vitamins settings UI - iOS;HEAT-39;-;Oleg Kuzenko;8;8
+HealthLife - GLAMCOM LP;Service;iOS;Your orders - iOS;HEAT-9;-;Oleg Kuzenko;20;24
+MCC;Service;-;"""My Benefits"" filter doesn't work correctly.";MCC-154;-;Oleg Timoshenko;-;2
+MCC;Service;-;About me screen;MCC-3;-;-;-;-
+MCC;Service;-;Add alphabet ordering on documents screen;MCC-171;-;Oleg Timoshenko;-;2
+MCC;Service;-;Add new labels to payments plan mapping;MCC-174;-;Oleg Timoshenko;-;4
+MCC;Service;-;Admin panel & label change;MCC-169;-;-;-;24
+MCC;Service;-;BCBS Card broken layout issue.;MCC-148;-;Oleg Timoshenko;-;3
+MCC;Service;-;Benefits section and related application;MCC-31;-;-;-;-
+MCC;Service;-;Change labels in app;MCC-170;-;Oleg Timoshenko;-;16
+MCC;Service;-;Contact MCC layout issue on iPhone 5, 5s.;MCC-149;-;Oleg Timoshenko;-;1
+MCC;Service;-;Contact Us functions;MCC-27;-;-;-;-
+MCC;Service;-;Data received from MSS system;MCC-21;-;-;-;-
+MCC;Service;-;Documents reader;MCC-105;-;-;-;-
+MCC;Service;-;Forgot password and Register links don't response.;MCC-131;-;Paul Ozolin;-;-
+MCC;Service;-;Home page elements;MCC-4;-;-;-;-
+MCC;Service;-;Insurance and Prescription cards;MCC-15;-;-;-;-
+MCC;Service;-;Layout issue on iPhone 5s, iOS 7.1;MCC-152;-;Oleg Timoshenko;-;2
+MCC;Service;-;Log in icon is absent on the main screen in version 0.0.6.;MCC-140;-;Paul Ozolin;-;-
+MCC;Service;-;Log in screen;MCC-11;-;-;-;-
+MCC;Service;-;Navigation elements;MCC-23;-;-;-;-
+MCC;Service;-;Overlapping issue on iPhone 4s, iOS 7.0.4, iPhone 4, iOS 7.1, iPod touch, iOS 8.1.1.;MCC-144;-;Paul Ozolin;-;-
+MCC;Service;-;Server transfer;MCC-172;-;Oleg Timoshenko;-;1
+MCC;Service;-;Text documents broken layout issue.;MCC-151;-;Oleg Timoshenko;-;4
+MCC;Service;-;The disposition order of icons on the main screen doesn't correspond the latest design concept.;MCC-139;-;Paul Ozolin;-;-
+MCC;Service;-;The user can input any email and password  to log in the application.;MCC-132;-;Paul Ozolin;-;-
+MCC;Service;-;Video embedding fix;MCC-173;-;-;-;-
+MCC;Service;-;Video player in application;MCC-13;-;-;-;-
+MCC;Service;-;Video section;MCC-106;-;-;-;-
+MCC;Service;-;Zoom buttons don't response or responses after several intense taps only.;MCC-150;-;Oleg Timoshenko;-;2
+MCC;Service;Application UI;"Add ""Incorrect e-mail or password""";MCC-47;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Add cards button to the screen;MCC-46;-;Polina Karpenko;-;0
+MCC;Service;Application UI;Add logout function to hamburger.;MCC-56;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Additional design fixes;MCC-49;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Application icons;MCC-114;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Card section redesign;MCC-50;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Contact Me section notes;MCC-34;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Create the rest of application screens in same style;MCC-37;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Design adjustments;MCC-38;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Design concept;MCC-33;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Design fixes;MCC-113;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Filters in Benefits section;MCC-35;-;Polina Karpenko;-;-
+MCC;Service;Application UI;General naming. Replace MyBenefits with My Benefits ;MCC-42;-;-;-;-
+MCC;Service;Application UI;Home page with current design;MCC-118;-;Juliya Matveeva;-;8
+MCC;Service;Application UI;Home screen redesign;MCC-51;-;Polina Karpenko;-;-
+MCC;Service;Application UI;"Home screen. Move ""search"" block to the right corner ";MCC-39;-;-;-;-
+MCC;Service;Application UI;Log in PopUp. Join Register and Restore password in one link;MCC-41;-;-;-;-
+MCC;Service;Application UI;Logged user home screen;MCC-36;-;Polina Karpenko;-;-
+MCC;Service;Application UI;"Place ""play"" icon above video thumbnail";MCC-45;-;Polina Karpenko;-;-
+MCC;Service;Application UI;"Remove any ""_"" symbol from any text on the screen";MCC-48;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Remove headers from all popups;MCC-54;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Rename cards;MCC-55;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Returning to the previous version ;MCC-52;-;Polina Karpenko;-;-
+MCC;Service;Application UI;Search results. Replace section name with sub-section name in results;MCC-40;-;-;-;-
+MCC;Service;Application back-end;Create the editor for benefits section;MCC-32;-;Oleg Timoshenko;-;13
+MCC;Service;Application back-end;Create whitelist of credentials that are redirected on test instance only;MCC-161;-;-;-;1
+MCC;Service;Application back-end;Implement tables support for editor and application;MCC-127;-;Oleg Timoshenko;-;-
+MCC;Service;Application back-end;MCC documents storage structure;MCC-29;-;Oleg Timoshenko;-;2
+MCC;Service;Application back-end;Need Account Verification Email for MCC App User Registration;MCC-168;-;Oleg Timoshenko;-;2
+MCC;Service;Application back-end;Text document structure;MCC-30;-;Oleg Timoshenko;-;1
+MCC;Service;"Application back-end; Application front-end";0.3 release (pre-final);MCC-156;-;Oleg Timoshenko;-;2
+MCC;Service;"Application back-end; Application front-end";Create general application structure;MCC-43;-;Oleg Timoshenko;-;6
+MCC;Service;Application front-end;'Back' and menu ('hamburger') button don't response or responses after several intense taps only.;MCC-133;-;Oleg Timoshenko;-;2
+MCC;Service;Application front-end;0.0.3 fixes;MCC-129;-;Oleg Timoshenko;-;0,5
+MCC;Service;Application front-end;0.0.5 checklist tasks;MCC-135;-;Oleg Timoshenko;-;-
+MCC;Service;Application front-end;Alphabetical order for documents and videos ;MCC-146;-;Oleg Timoshenko;-;-
+MCC;Service;Application front-end;Back button design issue.;MCC-134;-;Oleg Timoshenko;-;-
+MCC;Service;Application front-end;Basic application layout;MCC-107;-;Juliya Matveeva;-;27
+MCC;Service;Application front-end;Birthday displaying issue.  ;MCC-137;-;Oleg Timoshenko;-;-
+MCC;Service;Application front-end;CArds section filed remapping;MCC-155;-;Oleg Timoshenko;-;2
+MCC;Service;Application front-end;Can't play video on Android devices.;MCC-153;-;Oleg Timoshenko;-;3
+MCC;Service;Application front-end;Create forms matching the latest version of MSS document;MCC-162;-;-;-;3
+MCC;Service;Application front-end;Create login popup markup;MCC-112;-;Juliya Matveeva;-;10
+MCC;Service;Application front-end;Create model to work with MSS API;MCC-116;-;Oleg Timoshenko;-;-
+MCC;Service;Application front-end;Create models and collections to work with Documents section;MCC-109;-;Oleg Timoshenko;-;4
+MCC;Service;Application front-end;Create stiky footer in document reader mode. Place increase/decrease font-size buttons and a button for opening contents popup.;MCC-142;-;Oleg Timoshenko;-;-
+MCC;Service;Application front-end;Create template structure and functionality (web and build) to use same pieces of code in app;MCC-111;-;Oleg Timoshenko;-;11
+MCC;Service;Application front-end;Demo preparation checklist;MCC-124;-;Juliya Matveeva;-;1,5
+MCC;Service;Application front-end;Document content with navigation links;MCC-143;-;Oleg Timoshenko;-;8
+MCC;Service;Application front-end;Document styles;MCC-126;-;Oleg Timoshenko;-;4
+MCC;Service;Application front-end;Hamburger menu bug;MCC-125;-;Oleg Timoshenko;-;-
+MCC;Service;Application front-end;Instructions popup;MCC-145;-;Paul Ozolin;-;6
+MCC;Service;Application front-end;Layout issue on iPhone 4s, iOS 7.0.4 and iPhone 4, iOS 7.1;MCC-138;-;Oleg Timoshenko;-;3,5
+MCC;Service;Application front-end;Login behavior with remember me functionality;MCC-123;-;Oleg Timoshenko;-;4
+MCC;Service;Application front-end;Populate data to screen in My Benefits section based on login response;MCC-120;-;Oleg Timoshenko;-;7
+MCC;Service;Application front-end;Popup & hamburger menu issues;MCC-117;-;Juliya Matveeva;-;5
+MCC;Service;Application front-end;Publish data on Cards from MSS;MCC-147;-;Paul Ozolin;-;-
+MCC;Service;Application front-end;Publish data on cards retrieved from MSS;MCC-128;-;Paul Ozolin;-;2
+MCC;Service;Application front-end;Publish info to about me screen;MCC-122;-;Oleg Timoshenko;-;2
+MCC;Service;Application front-end;Replace letters with matching beneficiaries types;MCC-121;-;Juliya Matveeva;-;6
+MCC;Service;Application front-end;Text document isn't flowing  when a user scrolls it down/up.;MCC-136;-;Oleg Timoshenko;-;-
+MCC;Service;Application front-end;The subject isn't prefilled when a user composes email via Contact MCC section.;MCC-141;-;Oleg Timoshenko;-;-
+MCC;Service;Application front-end;Unlogged user taps on My Benefits, About me or My Cards icon to get to the login popup;MCC-63;-;Oleg Timoshenko;-;4
+MCC;Service;Application front-end;Update YouTube Links inside MCC App (Android);MCC-167;-;Blake Fisher;-;-
+MCC;Service;Application front-end;Update YouTube Links inside MCC App (iOS);MCC-166;-;Blake Fisher;-;-
+MCC;Service;Application front-end;Update application appearance based on Confluence doc;MCC-164;-;Oleg Timoshenko;-;4
+MCC;Service;Application front-end;Use created models for documents to fetch and populate data;MCC-110;-;Oleg Timoshenko;-;4
+MCC;Service;Application front-end;User attemps to register by clicking on Register link;MCC-160;-;-;-;-
+MCC;Service;Application front-end;User deselects checkbox to get to unlogged home screen on next login;MCC-89;-;Juliya Matveeva;-;1,5
+MCC;Service;Application front-end;User inputs e-mail login to the “email” input field;MCC-68;-;Juliya Matveeva;-;0,5
+MCC;Service;Application front-end;User inputs password to the “password” input field;MCC-69;-;Juliya Matveeva;-;0,5
+MCC;Service;Application front-end;User inputs text to search input;MCC-99;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User make long tap anywere on the text to see how many pages he has already read;MCC-81;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User pitches the text to get the font bigger;MCC-84;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;"User requests login reminder by clicking on ""Forgot Password"" link";MCC-159;-;-;-;-
+MCC;Service;Application front-end;"User requests password change by clicking on ""Forgot password"" link";MCC-158;-;-;-;-
+MCC;Service;Application front-end;User rotate the phone to landscape mode to see the video in fullscreen mode;MCC-87;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User see that inputted characters of the password are replaced with asterisk;MCC-70;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User see the last inputted symbol of the password for a second after input;MCC-71;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User selects checkbox to get to logged home screen on the next login;MCC-90;-;Juliya Matveeva;-;1
+MCC;Service;Application front-end;User sets “Remember Me” checkbox on to get to the logged home screen on the next application start;MCC-73;-;Juliya Matveeva;-;4
+MCC;Service;Application front-end;"User tap on ""hamburger"" button to open navigation menu";MCC-97;-;Juliya Matveeva;-;6
+MCC;Service;Application front-end;User tap on X icon to close the popup;MCC-101;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User tap on a section or subsection in drop-down menu to get to selected section;MCC-98;-;Juliya Matveeva;-;18
+MCC;Service;Application front-end;User tap on back arrow to get to the previous opened section;MCC-95;-;Oleg Timoshenko;-;2
+MCC;Service;Application front-end;User tap on document header to get to the document;MCC-103;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User tap on document icon, header or description to get to reader mode;MCC-76;-;Juliya Matveeva;-;6,5
+MCC;Service;Application front-end;User tap on right edge of the screen to move to the next page of the document;MCC-79;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User tap on search button to get search result;MCC-102;-;Juliya Matveeva;-;3
+MCC;Service;Application front-end;User tap on search icon to open search popup;MCC-96;-;Juliya Matveeva;-;3
+MCC;Service;Application front-end;User tap on the left edge of the screen to get to the previous page of the document;MCC-80;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User tap on video icon, header or description to get to player mode;MCC-77;-;Juliya Matveeva;-;13
+MCC;Service;Application front-end;User tap to the section name to get to benefits section with activated aprorptiate filter;MCC-104;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;"User taps ""edit"" button to get to MSS site";MCC-91;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User taps call us to get to the phone application with pre-set number;MCC-94;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User taps login to signup for the app;MCC-72;-;Oleg Timoshenko;-;3
+MCC;Service;Application front-end;"User taps on ""My cards"" button to get to My Cards section";MCC-92;-;Juliya Matveeva;-;58
+MCC;Service;Application front-end;User taps on 'Documents' or 'Video' filter toactivate/deactivate selected document type;MCC-115;-;Oleg Timoshenko;-;3
+MCC;Service;Application front-end;User taps on About me to get to About Me section;MCC-65;-;Juliya Matveeva;-;2
+MCC;Service;Application front-end;User taps on MCC logo to get to MCC website in system browser;MCC-59;-;Juliya Matveeva;-;0,5
+MCC;Service;Application front-end;User taps on My Benefits to get to My Benefits section;MCC-64;-;Juliya Matveeva;-;8
+MCC;Service;Application front-end;User taps on My Cards to get to My Cards section;MCC-66;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User taps on back arrow to leave readers mode;MCC-82;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User taps on benefits icon and gets to “Benefits” section;MCC-61;-;Juliya Matveeva;-;3,5
+MCC;Service;Application front-end;User taps on cross icon to close the popup;MCC-67;-;Juliya Matveeva;-;1
+MCC;Service;Application front-end;User taps on email us to get to his mailbox with prefilled email and subjets;MCC-93;-;Juliya Matveeva;-;2
+MCC;Service;Application front-end;User taps on forgot password link to get to MSS site;MCC-75;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User taps on register link to get to MSS site;MCC-74;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User taps on search button to get to the search results;MCC-100;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User taps on system “Home” button to quit the app;MCC-57;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User taps on the document he has already read before to get to the same page he has left reading;MCC-83;-;Paul Ozolin;-;5
+MCC;Service;Application front-end;User taps on “Contact Us” to get to the Contact Us popup;MCC-62;-;Juliya Matveeva;-;2
+MCC;Service;Application front-end;User taps on “Search” and gets to the “Search” popup;MCC-60;-;Juliya Matveeva;-;1
+MCC;Service;Application front-end;User turns the device to landscape and nothing happens;MCC-58;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User turns the phone to portrait view to exit fullscreen mode;MCC-88;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User unpitches the text to get the font smaller;MCC-85;-;Juliya Matveeva;-;-
+MCC;Service;Application front-end;User use video player to see the video;MCC-86;-;Oleg Timoshenko;-;3
+MCC;Service;Application front-end;Youtube fullscreen opening test;MCC-17;-;Oleg Timoshenko;-;2
+MCC;Service;Bureaucracy;General time reporting;MCC-1;-;-;-;220,5
+MCC;Service;Bureaucracy;MCC project checklist composing.;MCC-130;-;Paul Ozolin;-;37,5
+MCC;Service;Bureaucracy;PM time reporting;MCC-44;-;-;-;2
+MCC;Service;Bureaucracy;Phase 2 consultations;MCC-163;-;-;-;83
+MCC;Service;Bureaucracy;Publishing log;MCC-165;-;Paul Ozolin;-;3
+MCC;Service;Documentation;Blocker Questions;MCC-119;-;Paul Ozolin;-;-
+MCC;Service;Documentation;Create documentation for available API methods;MCC-108;-;Oleg Timoshenko;-;5
+MCC;Service;Presentation and Publishing;Appstore submission;MCC-157;-;Oleg Timoshenko;-;8
+MCC;Service;Wireframes;"Add ""My Insurance"" and ""My prescriptions"" buttons";MCC-7;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;"Add ""Register"" and ""Forgot passwords"" links";MCC-12;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;"Add space between ""My"" and ""Benefits""";MCC-5;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Cards section design;MCC-16;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Change card icons signatures;MCC-19;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Contact Us;MCC-28;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Hamburger items order;MCC-24;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Improve Home Page based on comments;MCC-9;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Interactive version;MCC-25;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Make background more transparent;MCC-20;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;My Benefits section;MCC-22;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;My Benefits section redesign;MCC-53;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;"Place ""Search"" button";MCC-10;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Profile page;MCC-2;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;"Remove ""Search"" section from the screen";MCC-6;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Remove social networks buttons;MCC-8;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Video opens fullscreen when video playbacks starts;MCC-26;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;Video player page;MCC-14;-;Polina Karpenko;-;-
+MCC;Service;Wireframes;v. 0.3. changes;MCC-18;-;Polina Karpenko;-;-
+MVP AdPlatform;Service;-; Picture in messages can not be opened;MVP-34;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;(Non-billable) Creating LESS file;MVP-4;Yes;Polina Karpenko;6;1
+MVP AdPlatform;Service;-;(Non-billable) PM's Work;MVP-2;Yes;Nikolay Vlakh;8;75
+MVP AdPlatform;Service;-;Ads can be replicated twice after double tap Done button on iOS and Android;MVP-68;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Ads list;MVP-21;Yes;-;0,07;-
+MVP AdPlatform;Service;-;Authorization;MVP-23;Yes;-;4,5;-
+MVP AdPlatform;Service;-;Back-end: Authorization (Non-Bill);MVP-7;Yes;-;3;-
+MVP AdPlatform;Service;-;Back-end: Categories/Subcategories (Non-Bill);MVP-6;Yes;-;3;-
+MVP AdPlatform;Service;-;Back-end: Create/Delete/Edit Ad (Non-Bill);MVP-5;Yes;-;12;-
+MVP AdPlatform;Service;-;Back-end: Details Feature (Non-Bill);MVP-17;Yes;-;3;-
+MVP AdPlatform;Service;-;Back-end: Facebook login (Non-Bill);MVP-19;Yes;-;4;-
+MVP AdPlatform;Service;-;Back-end: Filters (Non-Bill);MVP-9;Yes;-;5;-
+MVP AdPlatform;Service;-;Back-end: Messages (Non-Bill);MVP-16;Yes;-;6;-
+MVP AdPlatform;Service;-;Back-end: Multilanguage (Non-Bill);MVP-18;Yes;-;10;-
+MVP AdPlatform;Service;-;Back-end: User Profile (Non-Bill);MVP-8;Yes;-;4;-
+MVP AdPlatform;Service;-;"Button ""View all ads"" doesn't work";MVP-48;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;CSS errors;MVP-63;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Cropping of the pictures at the Add New screen;MVP-32;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Currency should be pointed upon creation of the ad and in the products list;MVP-35;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Customer Information;MVP-24;Yes;-;4,5;-
+MVP AdPlatform;Service;-;Design (Non-Billable) Step 1;MVP-3;Yes;Polina Karpenko;16;6
+MVP AdPlatform;Service;-;Edit/Create Ad;MVP-27;Yes;-;4,5;-
+MVP AdPlatform;Service;-;Field Subcategory in aâ creation form;MVP-52;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Fix Required for page speed up on desktop browsers;MVP-58;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Fix Required for page speed up on mobile devices browsers;MVP-55;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Homepage;MVP-20;Yes;-;4,5;-
+MVP AdPlatform;Service;-;Leverage browser caching on desktop browsers;MVP-59;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Leverage browser caching on mobile devices browsers;MVP-56;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Markup of the ad description;MVP-49;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Messages;MVP-28;Yes;-;4;-
+MVP AdPlatform;Service;-;Messages feature issue on mobile platforms;MVP-65;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Minify CSS on desktop browsers ;MVP-61;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Minify CSS on mobile devices browsers;MVP-57;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Minify JavaScript on desktop browsers;MVP-60;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Minify JavaScript on mobile devices browsers;MVP-62;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Misspell on Add new Advertisement page;MVP-12;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Mockups creation (Non-billable);MVP-1;Yes;Polina Karpenko;8;10
+MVP AdPlatform;Service;-;My ads;MVP-26;Yes;-;4,5;-
+MVP AdPlatform;Service;-;Navigation between pages;MVP-31;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;No opportunity for user to restore the account;MVP-50;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Phone No in created Ad isn't correct;MVP-64;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Photo layout after creation ad on iOS;MVP-66;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Pictures don't download in ads on Android platform;MVP-67;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Product description is overlayed by the product pictures;MVP-33;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;QA Process (Non-billable);MVP-10;Yes;Alexandra Tsyrkun;8;28
+MVP AdPlatform;Service;-;Security leak with access to all products on the site;MVP-11;Yes;Alexandra Tsyrkun;-;-
+MVP AdPlatform;Service;-;Security leak with access to the admin page;MVP-13;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | Application Error Disclosure;MVP-43;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | Buffer Overflow;MVP-45;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | Cross Site Scripting (Reflected);MVP-36;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | Cross site scripting (verified);MVP-37;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | DOM-based cross site scripting;MVP-39;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | Directory Browsing;MVP-44;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | Directory traversal;MVP-38;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | Format String Error;MVP-46;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | Git repository found;MVP-40;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | SQL injection;MVP-41;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Security scanner | X-Frame-Options Header Not Set;MVP-42;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Site title and logo;MVP-14;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Subcategory field in Contact information section;MVP-53;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;System behaviour if user tries to delete some ad;MVP-54;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;UI issue with Forgot Password screen;MVP-30;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;Usability issue | No button Categories;MVP-15;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;User Profile;MVP-25;Yes;-;4,5;-
+MVP AdPlatform;Service;-;User should be able to delete or change the photos added;MVP-51;Yes;Nikolay Vlakh;-;-
+MVP AdPlatform;Service;-;View Ad (details);MVP-22;Yes;-;4,5;-
+MVP AdPlatform;Service;-;View Ad (redesign);MVP-29;Yes;-;4,5;-
+MVP AdPlatform;Service;-;Ñategory font;MVP-47;Yes;Nikolay Vlakh;-;-
+Monodeal MVP Phase 2;Service;-; PM's work on Monodeal project - Non-Billable task since July 2016;MMP-125;Yes;Yuriy  Peslyak;16;6
+Monodeal MVP Phase 2;Service;-;AI. Improvement AI (according to the described behaviour templates);MMP-56;-;George Alekhnovitch;-;16
+Monodeal MVP Phase 2;Service;-;Additional effects for Shop (highlight for balance, showing coins accruals) ;MMP-24;-;George Alekhnovitch;-;6
+Monodeal MVP Phase 2;Service;-;Additional logic. Implementation logic for the first game launch (tutorial, showing authorization screen) ;MMP-120;-;George Alekhnovitch;8;8
+Monodeal MVP Phase 2;Service;-;Additional logic. Profiling and optimization for both platforms, initial testing  (iOS, Android) ;MMP-122;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Additional logic. Sound module realization and sounds and music integration ;MMP-121;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Adv module integration for video adv (adcolony for example);MMP-9;-;George Alekhnovitch;16;10
+Monodeal MVP Phase 2;Service;-;Analitics module integration and event tracking  ;MMP-8;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Animation and effects;MMP-14;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Animation for choosing card for stealing or for purchase ;MMP-29;-;George Alekhnovitch;-;10
+Monodeal MVP Phase 2;Service;-;Balance and statistic changes effect (for player or enemy);MMP-31;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Booster using effect ;MMP-26;-;George Alekhnovitch;-;12
+Monodeal MVP Phase 2;Service;-;Card dragging animation from Hand to Land area. ;MMP-17;-;George Alekhnovitch;-;6
+Monodeal MVP Phase 2;Service;-;Card showing animation during deck distribution ;MMP-18;-;George Alekhnovitch;-;6
+Monodeal MVP Phase 2;Service;-;Change Hat realization (fade) ;MMP-25;-;George Alekhnovitch;-;3
+Monodeal MVP Phase 2;Service;-;Dragging card animation from enemy's field ;MMP-19;-;George Alekhnovitch;-;6
+Monodeal MVP Phase 2;Service;-;Effects and animation for played card in the center (it depends on their types - cash, business, contract);MMP-34;-;George Alekhnovitch;-;17
+Monodeal MVP Phase 2;Service;-;Effects for the Main screen ;MMP-23;-;George Alekhnovitch;-;4
+Monodeal MVP Phase 2;Service;-;End player's turn animation ;MMP-30;-;George Alekhnovitch;-;7
+Monodeal MVP Phase 2;Service;-;First authorization Screen. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-112;-;George Alekhnovitch;1;1
+Monodeal MVP Phase 2;Service;-;First authorization Screen. First authorization Screen creation;MMP-111;-;George Alekhnovitch;-;6
+Monodeal MVP Phase 2;Service;-;Game Results screen. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-99;-;George Alekhnovitch;-;1
+Monodeal MVP Phase 2;Service;-;Game Results screen. Game Results screen creation;MMP-98;-;George Alekhnovitch;-;4
+Monodeal MVP Phase 2;Service;-;Game cards. Creation existing cards (5 another worlds).;MMP-43;-;George Alekhnovitch;16;16
+Monodeal MVP Phase 2;Service;-;Game cards. Creation existing cards for 1 world ;MMP-42;-;George Alekhnovitch;-;20
+Monodeal MVP Phase 2;Service;-;Game cards. Improvement business card logic  (groupping, card structure)  #24;MMP-49;-;George Alekhnovitch;-;8
+Monodeal MVP Phase 2;Service;-;Game cards. Improvement current card logic (Rejection card). #19;MMP-46;-;George Alekhnovitch;-;7
+Monodeal MVP Phase 2;Service;-;Game cards. Improvement current card logic Joker #22;MMP-48;-;George Alekhnovitch;-;8
+Monodeal MVP Phase 2;Service;-;Game cards. Improvement flip card logic (adding a possibility turning the arrow, needs a turn for turning)  ;MMP-47;-;George Alekhnovitch;-;8
+Monodeal MVP Phase 2;Service;-;Game cards. Showing card in details after touching in Hand Area.;MMP-44;-;George Alekhnovitch;-;6
+Monodeal MVP Phase 2;Service;-;Game cards. Viewing and choosing cards mechanism (based on example of Heartstone game);MMP-45;-;George Alekhnovitch;-;24
+Monodeal MVP Phase 2;Service;-;Game field glowing (during current turn or during moving card to the enemy's field. Red and green edge backlight (smooth pulsation);MMP-16;-;George Alekhnovitch;-;9
+Monodeal MVP Phase 2;Service;-;Game field. 1 world - creation game field elements ;MMP-37;-;George Alekhnovitch;40;33
+Monodeal MVP Phase 2;Service;-;Game field. Creation game field elements (new 5 worlds) ;MMP-39;-;George Alekhnovitch;8;8
+Monodeal MVP Phase 2;Service;-;Game field. Game field animation creation.;MMP-38;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Game field. Showing dialog windows for game events (payment checking, choose player etc.) Dialog Boxes;MMP-40;-;George Alekhnovitch;-;8
+Monodeal MVP Phase 2;Service;-;Game group module (server side). Creation api for client side. ;MMP-2;-;George Alekhnovitch;-;24
+Monodeal MVP Phase 2;Service;-;Game logiñ and AI. AI;MMP-55;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Game logiñ and AI. Game cards ;MMP-41;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Game logiñ and AI. Game field.;MMP-36;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Game logiñ and AI. Game mechanic;MMP-50;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Game mechanic. Game tutorial realization (need to be specified!!!);MMP-52;-;George Alekhnovitch;-;24
+Monodeal MVP Phase 2;Service;-;Game mechanic. Game worlds realization (binding customized deck for the game, opening options) ;MMP-51;-;George Alekhnovitch;-;22
+Monodeal MVP Phase 2;Service;-;Game mechanic. Improvement Land cards layout for 3 players mode ;MMP-54;-;George Alekhnovitch;-;4
+Monodeal MVP Phase 2;Service;-;Game mechanic. Setting game configuration for testing and release parameters (#19);MMP-53;-;George Alekhnovitch;8;12
+Monodeal MVP Phase 2;Service;-;Game rating module (server side). Creation api for client side.;MMP-3;-;George Alekhnovitch;-;28
+Monodeal MVP Phase 2;Service;-;Gameplay Settings Screen. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-95;-;George Alekhnovitch;-;1
+Monodeal MVP Phase 2;Service;-;Gameplay Settings Screen. Pause screen creation + adaptation with current logic (settings, sound, exit game etc.) ;MMP-96;-;George Alekhnovitch;-;5
+Monodeal MVP Phase 2;Service;-;Glowing effect around the card  ;MMP-20;-;George Alekhnovitch;-;12
+Monodeal MVP Phase 2;Service;-;Gray layer effect #66 realization;MMP-15;-;George Alekhnovitch;-;12
+Monodeal MVP Phase 2;Service;-;Group Loading Screen. Group loading screen creation ;MMP-104;-;George Alekhnovitch;-;9
+Monodeal MVP Phase 2;Service;-;Group Loading Screen. Start game session with group user (matchmaking improvements) ;MMP-105;-;George Alekhnovitch;6;6
+Monodeal MVP Phase 2;Service;-;Group Screen. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-102;-;George Alekhnovitch;-;3
+Monodeal MVP Phase 2;Service;-;Group Screen. Group screen creation (for states - creation, search players, delete, choose) ;MMP-101;-;George Alekhnovitch;4;4
+Monodeal MVP Phase 2;Service;-;Hand card effects (based on the  HeartStone example);MMP-27;-;George Alekhnovitch;-;14
+Monodeal MVP Phase 2;Service;-;Help Pop-up. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-68;-;George Alekhnovitch;-;1
+Monodeal MVP Phase 2;Service;-;Help Pop-up. Help screen creation;MMP-66;-;George Alekhnovitch;-;4
+Monodeal MVP Phase 2;Service;-;Help Pop-up. Logic implementation (showing actual info about game, static) ;MMP-67;-;George Alekhnovitch;2;2
+Monodeal MVP Phase 2;Service;-;Icons and splash screen realization, preparing these for appropriate format, resizing ;MMP-58;-;George Alekhnovitch;1;1
+Monodeal MVP Phase 2;Service;-;Implementation of binding to push notifications for gaming groups (request to add, when game is agreed);MMP-126;-;George Alekhnovitch;16;8
+Monodeal MVP Phase 2;Service;-;Implementation of boosters module (purchasing, information of the buster, logic of use). Implementation of 2 types: adding of the map, bonus to the points) In-game booster: map of cancellation;MMP-127;-;George Alekhnovitch;16;8
+Monodeal MVP Phase 2;Service;-;In Game Booster Pop-up. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-118;-;George Alekhnovitch;-;1
+Monodeal MVP Phase 2;Service;-;In Game Booster Pop-up. Ingame booster screen creation ;MMP-117;-;George Alekhnovitch;-;1
+Monodeal MVP Phase 2;Service;-;In app purchase for android and ios platforms;MMP-7;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Integration;MMP-6;-;-;-;-
+Monodeal MVP Phase 2;Service;-;Interactive objects animation and effects (2 objects for each from 6 levels)  (surrounding environment);MMP-35;-;George Alekhnovitch;40;62
+Monodeal MVP Phase 2;Service;-;Loading screen. Loading game screen realization (game modules initialization, caching files, loading config files from server - it Internet is available) ;MMP-60;-;George Alekhnovitch;-;3
+Monodeal MVP Phase 2;Service;-;Loading screen. Loading screen creation ;MMP-61;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Lock-kit creation (collect all ingame texts for localization) ;MMP-13;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Login Screen email or social. Creation login screen;MMP-72;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Login Screen email or social. MVP authorization module integration;MMP-73;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Main Screen. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-64;-;George Alekhnovitch;-;1
+Monodeal MVP Phase 2;Service;-;Main Screen. Main screen creation ;MMP-63;-;George Alekhnovitch;-;5
+Monodeal MVP Phase 2;Service;-;Main effects for buttons, opening/closing windows animation  ;MMP-22;-;George Alekhnovitch;-;24
+Monodeal MVP Phase 2;Service;-;Messages Pop-up. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-89;-;George Alekhnovitch;-;3
+Monodeal MVP Phase 2;Service;-;Messages Pop-up. Creation messages screen;MMP-87;-;George Alekhnovitch;-;4
+Monodeal MVP Phase 2;Service;-;Messages Pop-up. Game group module realization (clien part) (sending invites, search, accept invite, groupping, creation, decline invite, invite to the game, remote notifications interaction) ;MMP-88;-;George Alekhnovitch;-;18
+Monodeal MVP Phase 2;Service;-;Play Screen. Booster module realization (purchase, booster info, ingame implementation logic). 2 types of booster realization: adding card, score bonus. Ingame booster - rejection card  ;MMP-78;-;George Alekhnovitch;-;18
+Monodeal MVP Phase 2;Service;-;Play Screen. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-77;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Play Screen. Play screen creation (select level, select booster, select number of players) ;MMP-70;-;George Alekhnovitch;-;8
+Monodeal MVP Phase 2;Service;-;Player's Leaderboard module implementation (client side) ;MMP-81;-;George Alekhnovitch;-;22
+Monodeal MVP Phase 2;Service;-;Pre-release preparation;MMP-10;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Profile Screen. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-115;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Profile Screen. Profile Screen creation;MMP-114;-;George Alekhnovitch;-;8
+Monodeal MVP Phase 2;Service;-;Project facilitation & communication ;MMP-123;-;Igor Kravchenko;-;-
+Monodeal MVP Phase 2;Service;-;Project facilitation & communication ;MMP-124;-;Igor Kravchenko;-;40
+Monodeal MVP Phase 2;Service;-;Push notification creation (on server side). Registering and send notification to the selected profile (for games group module). ;MMP-5;-;George Alekhnovitch;-;12
+Monodeal MVP Phase 2;Service;-;Refill Lives Pop-up. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-92;-;George Alekhnovitch;-;1
+Monodeal MVP Phase 2;Service;-;Refill Lives Pop-up. Creation refill lives screen;MMP-91;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Refill Lives Pop-up. Lives module realization  (refill, timer, removing lives, saving, purchase, adv watching, posting to the Facebook);MMP-93;-;George Alekhnovitch;-;12
+Monodeal MVP Phase 2;Service;-;Registration Screen;MMP-74;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Registration Screen. Creation registration screen;MMP-75;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Registration Screen. MVP registration module integration;MMP-76;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Remote notifications interaction, invite to the game;MMP-128;-;George Alekhnovitch;10;6
+Monodeal MVP Phase 2;Service;-;Resources preparation and settings for Android (compression, platform settings, manifest creation). Testing. Release build creation. ;MMP-11;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Resources preparation and settings for iOS (compression, platform settings). Testing. Release build creation. ;MMP-12;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Rich Screen creation;MMP-80;-;George Alekhnovitch;-;10
+Monodeal MVP Phase 2;Service;-;Salute effect after win and show winning combo (another part of game field will be dimming) + victory window animation ;MMP-21;-;George Alekhnovitch;-;12
+Monodeal MVP Phase 2;Service;-;Server side;MMP-1;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Settings screen, default;MMP-82;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;Settings screen, default. Creation animation for opening\closing, dropdown list animation, creation animation for buttons and elements  ;MMP-85;-;George Alekhnovitch;-;1
+Monodeal MVP Phase 2;Service;-;Settings screen, default. Creation settings screen (expanded) ;MMP-83;-;George Alekhnovitch;-;4
+Monodeal MVP Phase 2;Service;-;Settings screen, default. Integration setting module with MVP.;MMP-84;-;George Alekhnovitch;-;1
+Monodeal MVP Phase 2;Service;-;Shop Screen. Creation animation for opening\closing, creation animation for buttons and elements ;MMP-108;-;George Alekhnovitch;-;2
+Monodeal MVP Phase 2;Service;-;Shop Screen. Game puchases realization (goods types, coins accrual, caching price, adapter for interaction with purchases plugin for 2 platforms) ;MMP-109;-;George Alekhnovitch;-;6
+Monodeal MVP Phase 2;Service;-;Shop Screen. Shop Screen realization;MMP-107;-;George Alekhnovitch;-;6
+Monodeal MVP Phase 2;Service;-;Showing and hiding game messages animation;MMP-32;-;George Alekhnovitch;-;4
+Monodeal MVP Phase 2;Service;-;Showing animation for enemy's card manupulations ;MMP-28;-;George Alekhnovitch;-;20
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Additional logic;MMP-119;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. First authorization Screen;MMP-110;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Game Results screen ;MMP-97;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Gameplay Settings Screen;MMP-94;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Group Loading Screen;MMP-103;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Group Screen;MMP-100;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Help Pop-up;MMP-65;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. In Game Booster Pop-up;MMP-116;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Loading screen;MMP-59;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Login Screen email or social;MMP-71;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Main Screen. ;MMP-62;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Messages Pop-up;MMP-86;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Profile Screen;MMP-113;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Refill Lives Pop-up;MMP-90;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Rich List Screen;MMP-79;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. Shop Screen;MMP-106;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic. UI & Logiñ that connected with it;MMP-57;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;UI and non-game logic: Play Screen;MMP-69;-;George Alekhnovitch;-;-
+Monodeal MVP Phase 2;Service;-;User authorization and profile synchronization (for common server) ;MMP-4;-;George Alekhnovitch;-;16
+Monodeal MVP Phase 2;Service;-;Win / loose screen effects and animation ;MMP-33;-;George Alekhnovitch;-;4
+;;;;;;;;
+Created on 10-04-2016 06:52:51 using All-In-One JIRA Reports;;;;;;;;

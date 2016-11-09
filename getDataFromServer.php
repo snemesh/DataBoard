@@ -4,6 +4,8 @@ namespace my_app;
 use backendless\Backendless;
 use backendless\model\BackendlessUser;
 use DataStore;
+use Assignee;
+
 
 function getDataFromReport($link)
 {
@@ -70,4 +72,9 @@ function loadDataToBase()
         $saved_newDataBlock = Backendless::$Persistence->save($newDataBlock);
     }
     echo ("The process of loading data to the base was finished<br>");
+}
+
+function createTableAssignee(){
+
+    $assignee = new Assagnee();
 }

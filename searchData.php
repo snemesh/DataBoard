@@ -19,23 +19,11 @@ include "vendor/backendless/autoload.php";
 include "KpiData.php";
 include "DataStore.php";
 include "getDataFromServer.php";
+include "Assignee.php";
 
-Backendless::initApp('70518918-F4D9-EA7A-FF91-7E981EF9CF00', '05193E30-2613-A4C8-FFC7-2431B4935800', 'v1');
-$curUser = "snemesh@gmail.com";
-$curPass = "123";
+//----------------------------------------
 
-
-$user = new BackendlessUser();
-$user->setEmail( $curUser );
-$user->setPassword( $curPass );
-
-$user = Backendless::$UserService->login( $curUser, $curPass );
-if($user->email=!$curUser){
-    echo "loginError";
-} else {
-    echo "Success login <br>";
-
-};
+echo loginToTheSystem();
 
 ////Loading data to the Base
 //$ress = Backendless::$Data->of( 'DataStore ')->find()->getAsObject();
@@ -46,29 +34,31 @@ if($user->email=!$curUser){
 //        $res = DeleteLine();
 //        loadDataToBase();
 //};
+//echo createTableAssignee();
+addAssignee("user1",2000,4.5);
 
-$ress = Backendless::$Data->of( 'DataStore ')->find()->getAsObject();
-$query = new BackendlessDataQuery();
-$query->setWhereClause("project = 'MCC'");
-$result_collection = Backendless::$Persistence->of( 'DataStore' )->find( $query )->getAsObject();
-//print_r($result_collection);
-//echo $result_collection[0]->project;
-$sumOfSpentTime=0;
-$sumOfestimated=0;
-$projectName ='';
-foreach ($result_collection as $key=>$val) {
-    $projectName = $result_collection[$key]->project;
-    $spentTime =  $result_collection[$key]->spentTime;
-    $estimated = $result_collection[$key]->estimated;
-    $assignee = $result_collection[$key]->assignee;
-    $spentTime = strval($spentTime);
-    $sumOfSpentTime = $sumOfSpentTime + $spentTime;
-    $estimated = strval($estimated);
-    $sumOfestimated = $sumOfestimated + $estimated;
-}
-echo $projectName .  "<br>";
-echo $sumOfSpentTime . "<br>";
-echo $sumOfestimated . "<br>";
+//$ress = Backendless::$Data->of( 'DataStore ')->find()->getAsObject();
+//$query = new BackendlessDataQuery();
+//$query->setWhereClause("project = 'MCC'");
+//$result_collection = Backendless::$Persistence->of( 'DataStore' )->find( $query )->getAsObject();
+////print_r($result_collection);
+////echo $result_collection[0]->project;
+//$sumOfSpentTime=0;
+//$sumOfestimated=0;
+//$projectName ='';
+//foreach ($result_collection as $key=>$val) {
+//    $projectName = $result_collection[$key]->project;
+//    $spentTime =  $result_collection[$key]->spentTime;
+//    $estimated = $result_collection[$key]->estimated;
+//    $assignee = $result_collection[$key]->assignee;
+//    $spentTime = strval($spentTime);
+//    $sumOfSpentTime = $sumOfSpentTime + $spentTime;
+//    $estimated = strval($estimated);
+//    $sumOfestimated = $sumOfestimated + $estimated;
+//}
+//echo $projectName .  "<br>";
+//echo $sumOfSpentTime . "<br>";
+//echo $sumOfestimated . "<br>";
 
 //foreach ($result_collection as $key=>$val)
 //{

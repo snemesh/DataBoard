@@ -6,10 +6,8 @@
  * Time: 14:47
  */
 
-namespace my_app;
 
-
-class assignee
+class Assignee
 {
     private $assignee_name;
     private $salary;

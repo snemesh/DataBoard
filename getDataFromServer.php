@@ -76,5 +76,39 @@ function loadDataToBase()
 
 function createTableAssignee(){
 
-    $assignee = new Assagnee();
+    $assignee = new Assignee();
+    $assignee->setAssigneeName("user");
+    $assignee->setSalary(1000);
+    $assignee->setHourlyRate(4.5);
+    $saveAssignee = Backendless::$Persistence->save( $assignee );
+    return $saveAssignee;
+}
+
+function loginToTheSystem()
+{
+
+    Backendless::initApp('70518918-F4D9-EA7A-FF91-7E981EF9CF00', '05193E30-2613-A4C8-FFC7-2431B4935800', 'v1');
+    $curUser = "snemesh@gmail.com";
+    $curPass = "123";
+
+    $user = new BackendlessUser();
+    $user->setEmail( $curUser );
+    $user->setPassword( $curPass );
+
+    $user = Backendless::$UserService->login( $curUser, $curPass );
+    if($user->email=!$curUser){
+        return "loginError";
+    } else {
+        return "Success login <br>";
+
+    };
+}
+
+function addAssignee($assigneeUser, $salary, $hourlyRate){
+    $assignee = new Assignee();
+    $assignee->setAssigneeName($assigneeUser);
+    $assignee->setSalary($salary);
+    $assignee->setHourlyRate($hourlyRate);
+    $saveAssignee = Backendless::$Persistence->save( $assignee );
+    return $saveAssignee;
 }

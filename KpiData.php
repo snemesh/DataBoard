@@ -6,8 +6,6 @@
  * Time: 15:49
  */
 
-namespace my_app;
-
 
 class KpiData
 {

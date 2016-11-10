@@ -158,3 +158,4 @@ function getAllProjects(){
         echo $projectName."<br>";
     }
 }
+

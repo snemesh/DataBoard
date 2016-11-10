@@ -9,7 +9,7 @@
 namespace my_app;
 use backendless\Backendless;
 use backendless\model\BackendlessUser;
-use my_app\KpiData;
+use KpiData;
 use backendless\BackendlessAutoloader;
 use backendless\services\persistence\BackendlessDataQuery;
 use DataStore;
@@ -24,7 +24,10 @@ include "Assignee.php";
 //----------------------------------------
 
 echo loginToTheSystem();
-
+echo createNewDataStoreTable();
+//echo loadDataToBase();
+//echo getAllProjects();
+//DeleteDataStore();
 ////Loading data to the Base
 //if(!doesTableExists("DataStore")){
 //        echo "<br>It's an anmpty table <br>";
@@ -35,7 +38,7 @@ echo loginToTheSystem();
 //};
 //projectResults("MCC");
 //projectResults("Monodeal MVP Phase 2");
-getAllProjects();
+//getAllProjects();
 
 
 //foreach ($result_collection as $key=>$val)

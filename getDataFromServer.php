@@ -4,6 +4,7 @@ namespace my_app;
 use backendless\Backendless;
 use backendless\model\BackendlessUser;
 use backendless\services\persistence\BackendlessDataQuery;
+use backendless\services\persistence;
 use DataStore;
 use Assignee;
 
@@ -29,7 +30,7 @@ function getDataFromReport($link)
 }
 
 
-function DeleteLine()
+function DeleteDataStore()
 {
     echo ("Start process of deleting the data <br>");
     $url = 'http://api.backendless.com/v1/data/bulk/DataStore?where=created%3E0';
@@ -59,7 +60,7 @@ function DeleteLine()
     return $asw;
 }
 
-function loadDataToBase()
+function loadDataToExistDataStoreTable()
 {
     echo ("Start process of loading data to the base<br>");
     $newDataBlock = new DataStore();
@@ -73,6 +74,20 @@ function loadDataToBase()
         $saved_newDataBlock = Backendless::$Persistence->save($newDataBlock);
     }
     echo ("The process of loading data to the base was finished<br>");
+}
+
+function createNewDataStoreTable()
+{
+    echo ("Start process of loading data to the base<br>");
+    $newDataBlock = new DataStore();
+    $newDataBlock->setProject("test");
+    $newDataBlock->setNonBil("yes");
+    $newDataBlock->setAssignee("user");
+    $newDataBlock->setEstimated(100);
+    $newDataBlock->setSpentTime(100);
+    $saved_newDataBlock = Backendless::$Persistence->save(new $newDataBlock);
+
+    print_r($saved_newDataBlock);
 }
 
 function createTableAssignee(){
@@ -151,7 +166,7 @@ function projectResults($someProjectName)
 
 function getAllProjects(){
 
-    $getProjects = Backendless::$Persistence->of('DataStore')->find('DataStore')->getAsObject();
+    $getProjects = Backendless::$Persistence->of('DataStore')->find()->getAsObject();
     print_r($getProjects);
     foreach ($getProjects as $key => $val) {
         $projectName = $getProjects[$key]->project;

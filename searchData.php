@@ -26,38 +26,17 @@ include "Assignee.php";
 echo loginToTheSystem();
 
 ////Loading data to the Base
-//$ress = Backendless::$Data->of( 'DataStore ')->find()->getAsObject();
-//if(!$ress){
+//if(!doesTableExists("DataStore")){
 //        echo "<br>It's an anmpty table <br>";
 //        loadDataToBase();
 //    } else {
 //        $res = DeleteLine();
 //        loadDataToBase();
 //};
+//projectResults("MCC");
+//projectResults("Monodeal MVP Phase 2");
+getAllProjects();
 
-
-//$ress = Backendless::$Data->of( 'DataStore ')->find()->getAsObject();
-//$query = new BackendlessDataQuery();
-//$query->setWhereClause("project = 'MCC'");
-//$result_collection = Backendless::$Persistence->of( 'DataStore' )->find( $query )->getAsObject();
-////print_r($result_collection);
-////echo $result_collection[0]->project;
-//$sumOfSpentTime=0;
-//$sumOfestimated=0;
-//$projectName ='';
-//foreach ($result_collection as $key=>$val) {
-//    $projectName = $result_collection[$key]->project;
-//    $spentTime =  $result_collection[$key]->spentTime;
-//    $estimated = $result_collection[$key]->estimated;
-//    $assignee = $result_collection[$key]->assignee;
-//    $spentTime = strval($spentTime);
-//    $sumOfSpentTime = $sumOfSpentTime + $spentTime;
-//    $estimated = strval($estimated);
-//    $sumOfestimated = $sumOfestimated + $estimated;
-//}
-//echo $projectName .  "<br>";
-//echo $sumOfSpentTime . "<br>";
-//echo $sumOfestimated . "<br>";
 
 //foreach ($result_collection as $key=>$val)
 //{

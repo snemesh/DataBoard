@@ -3,6 +3,7 @@
 namespace my_app;
 use backendless\Backendless;
 use backendless\model\BackendlessUser;
+use backendless\services\persistence\BackendlessDataQuery;
 use DataStore;
 use Assignee;
 
@@ -111,4 +112,49 @@ function addAssignee($assigneeUser, $salary, $hourlyRate){
     $assignee->setHourlyRate($hourlyRate);
     $saveAssignee = Backendless::$Persistence->save( $assignee );
     return $saveAssignee;
+}
+
+function doesTableExists($someTable){
+    $ress = Backendless::$Data->of($someTable)->find()->getAsObject();
+    if(!$ress) {
+        return false; //The table doesn't exist
+    }
+    return true; // The table exist;
+
+}
+
+function projectResults($someProjectName)
+{
+    $sumOfSpentTime = 0;
+    $sumOfestimated = 0;
+    $projectName = '';
+
+    $query = new BackendlessDataQuery();
+    $clause = "project = '$someProjectName'";
+    $query->setWhereClause($clause);
+    $result_collection = Backendless::$Persistence->of('DataStore')->find($query)->getAsObject();
+
+    foreach ($result_collection as $key => $val) {
+        $projectName = $result_collection[$key]->project;
+        $spentTime = $result_collection[$key]->spentTime;
+        $estimated = $result_collection[$key]->estimated;
+
+        $spentTime = strval($spentTime);
+        $sumOfSpentTime = $sumOfSpentTime + $spentTime;
+        $estimated = strval($estimated);
+        $sumOfestimated = $sumOfestimated + $estimated;
+    }
+    echo $projectName . "<br>";
+    echo $sumOfSpentTime . "<br>";
+    echo $sumOfestimated . "<br>";
+}
+
+function getAllProjects(){
+
+    $getProjects = Backendless::$Persistence->of('DataStore')->find('DataStore')->getAsObject();
+    print_r($getProjects);
+    foreach ($getProjects as $key => $val) {
+        $projectName = $getProjects[$key]->project;
+        echo $projectName."<br>";
+    }
 }

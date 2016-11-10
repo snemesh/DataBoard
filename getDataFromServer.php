@@ -71,7 +71,7 @@ function loadDataToExistDataStoreTable()
         $newDataBlock->setAssignee($col[2]);
         $newDataBlock->setEstimated($col[3]);
         $newDataBlock->setSpentTime($col[4]);
-        $saved_newDataBlock = Backendless::$Persistence->save($newDataBlock);
+        $saved_newDataBlock = Backendless::$Persistence->save(new $newDataBlock);
     }
     echo ("The process of loading data to the base was finished<br>");
 }
@@ -85,7 +85,7 @@ function createNewDataStoreTable()
     $DataStore->setAssignee("user");
     $DataStore->setEstimated(100);
     $DataStore->setSpentTime(100);
-    $saved_newDataBlock = Backendless::$Persistence->save(new $DataStore);
+    $saved_newDataBlock = Backendless::$Persistence->save( new $DataStore);
 
     print_r($saved_newDataBlock);
 }
@@ -165,6 +165,7 @@ function projectResults($someProjectName)
 }
 
 function getAllProjects(){
+
 
     $getProjects = Backendless::$Persistence->of('DataStore')->find()->getAsObject();
     print_r($getProjects);

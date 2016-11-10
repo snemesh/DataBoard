@@ -23,11 +23,15 @@ include "Assignee.php";
 
 //----------------------------------------
 
+
 echo loginToTheSystem();
-echo createNewDataStoreTable();
-//echo loadDataToBase();
+//echo createNewDataStoreTable();
+//loadDataToExistDataStoreTable();
 //echo getAllProjects();
 //DeleteDataStore();
+
+getAllProjects();
+
 ////Loading data to the Base
 //if(!doesTableExists("DataStore")){
 //        echo "<br>It's an anmpty table <br>";

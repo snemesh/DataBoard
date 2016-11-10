@@ -79,13 +79,13 @@ function loadDataToExistDataStoreTable()
 function createNewDataStoreTable()
 {
     echo ("Start process of loading data to the base<br>");
-    $newDataBlock = new DataStore();
-    $newDataBlock->setProject("test");
-    $newDataBlock->setNonBil("yes");
-    $newDataBlock->setAssignee("user");
-    $newDataBlock->setEstimated(100);
-    $newDataBlock->setSpentTime(100);
-    $saved_newDataBlock = Backendless::$Persistence->save(new $newDataBlock);
+    $DataStore = new DataStore();
+    $DataStore->setProject("test");
+    $DataStore->setNonBil("yes");
+    $DataStore->setAssignee("user");
+    $DataStore->setEstimated(100);
+    $DataStore->setSpentTime(100);
+    $saved_newDataBlock = Backendless::$Persistence->save(new $DataStore);
 
     print_r($saved_newDataBlock);
 }

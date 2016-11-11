@@ -169,11 +169,19 @@ function getAllProjects(){
     $query->setPageSize(10);
 
     $result = Backendless::$Data->of( "DataStore" )->find( $query );
-    print_r($result);
-    $result->loadNextPage();
-    print_r($result);
-    $result->loadNextPage();
-    print_r($result);
+    $numberOfLines = $result->totalObjectsCount();
+    $pageSize = $result->pageSize();
+    echo "Number of line =>" . $numberOfLines . "<br>";
+    echo "Page size =>" . $pageSize . "<br>";
+    $countOfPages = floor($numberOfLines/$pageSize);
+    echo "Number of Pages =>" . $countOfPages . "<br>";
+    $res=$result->getAsArrays();
+    print_r($res);
+    //print_r($result);
+    //$result->loadNextPage();
+    //print_r($result);
+    //$result->loadNextPage();
+    //print_r($result);
     //print_r($result);
     //print_r($result->data[0]->created);
 

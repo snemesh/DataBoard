@@ -166,12 +166,11 @@ function projectResults($someProjectName)
 
 function getAllProjects(){
 
-
-    $getProjects = Backendless::$Persistence->of('DataStore')->find()->getAsObject();
+    $getProjects = Backendless::$Persistence->of('DataStore')->find();
     print_r($getProjects);
-    foreach ($getProjects as $key => $val) {
-        $projectName = $getProjects[$key]->project;
-        echo $projectName."<br>";
-    }
+//    foreach ($getProjects as $key => $val) {
+//        $projectName = $getProjects[$key]->project;
+//        echo $projectName."<br>";
+//    }
 }
 

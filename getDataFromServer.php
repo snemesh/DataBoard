@@ -165,12 +165,24 @@ function projectResults($someProjectName)
 }
 
 function getAllProjects(){
+    $query = new BackendlessDataQuery();
+    $query->setPageSize(10);
 
-    $getProjects = Backendless::$Persistence->of('DataStore')->find();
-    print_r($getProjects);
-//    foreach ($getProjects as $key => $val) {
-//        $projectName = $getProjects[$key]->project;
-//        echo $projectName."<br>";
+    $result = Backendless::$Data->of( "DataStore" )->find( $query );
+    print_r($result);
+    $result->loadNextPage();
+    print_r($result);
+    $result->loadNextPage();
+    print_r($result);
+    //print_r($result);
+    //print_r($result->data[0]->created);
+
+    //echo $result
+    //print_r($getProjects);
+//    foreach ($result as $key => $val) {
+//        print_r( $val);
+//        //$result = $result[$key]->project;
+//        //echo $result."<br>";
 //    }
 }
 

@@ -1,36 +1,18 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: snemesh
- * Date: 03.11.16
- * Time: 18:52
- */
 
-namespace my_app;
-use backendless\Backendless;
-use backendless\model\BackendlessUser;
-use KpiData;
-use backendless\BackendlessAutoloader;
-use backendless\services\persistence\BackendlessDataQuery;
-use DataStore;
+ini_set('display_errors',1);
+error_reporting(E_ALL);
 
-
-include "vendor/backendless/autoload.php";
-include "KpiData.php";
-include "DataStore.php";
 include "getDataFromServer.php";
-include "Assignee.php";
-
 //----------------------------------------
 
-
-echo loginToTheSystem();
+loginToTheSystem("snemesh@gmail.com","123");
 //echo createNewDataStoreTable();
 //loadDataToExistDataStoreTable();
 //echo getAllProjects();
 //DeleteDataStore();
 
-getAllProjects();
+//$authRes = loginToTheSystem("snemesh@gmail.com","123");
 
 ////Loading data to the Base
 //if(!doesTableExists("DataStore")){

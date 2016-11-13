@@ -1,13 +1,14 @@
 <?php
 
-namespace my_app;
+
 use backendless\Backendless;
 use backendless\model\BackendlessUser;
 use backendless\services\persistence\BackendlessDataQuery;
-use backendless\services\persistence;
+//use backendless\BackendlessAutoloader;
+//use backendless\services\persistence;
 use DataStore;
 use Assignee;
-
+include "vendor/backendless/autoload.php";
 
 function getDataFromReport($link)
 {
@@ -100,25 +101,53 @@ function createTableAssignee(){
     return $saveAssignee;
 }
 
-function loginToTheSystem()
+function logOutBack($someUser)
 {
+    try {
+        $res = Backendless::$UserService->logout($someUser);
+    }
+    catch (Exception $ex){
+        return $ex;
+    }
+    return true;
+}
 
+function loginToTheSystem($someLogin, $somePass)
+{
     Backendless::initApp('70518918-F4D9-EA7A-FF91-7E981EF9CF00', '05193E30-2613-A4C8-FFC7-2431B4935800', 'v1');
-    $curUser = "snemesh@gmail.com";
-    $curPass = "123";
+    $curUser = $someLogin;
+    $curPass = $somePass;
 
+    //echo "curUser => ".$curUser. "  curPass => ". $curPass;
     $user = new BackendlessUser();
     $user->setEmail( $curUser );
     $user->setPassword( $curPass );
 
-    $user = Backendless::$UserService->login( $curUser, $curPass );
-    if($user->email=!$curUser){
-        return "loginError";
-    } else {
-        return "Success login <br>";
 
-    };
+    try {
+
+        $res = Backendless::$UserService->login($curUser, $curPass);
+    }
+    catch(Exception $ex){
+        //echo $ex->getMessage();
+        $resultOfAuth = false;
+        return $resultOfAuth;
+    }
+//    $user = Backendless::$UserService->login($someLogin, $somePass);
+//    $user->setName("Nemesh Sergey");
+//    Backendless::$UserService->update( $user );
+
+    if($user->email=!$curUser){
+        $resultOfAuth = false;
+    } else {
+        $resultOfAuth = true;
+    }
+
+    $_POST["username"] = $res->name;
+    return $resultOfAuth;
 }
+
+
 
 function addAssignee($assigneeUser, $salary, $hourlyRate){
     $assignee = new Assignee();
@@ -165,6 +194,7 @@ function projectResults($someProjectName)
 }
 
 function getAllProjects(){
+    echo "Start";
     $query = new BackendlessDataQuery();
     $query->setPageSize(10);
 

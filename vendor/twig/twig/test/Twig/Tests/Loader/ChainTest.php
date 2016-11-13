@@ -30,16 +30,16 @@ class Twig_Tests_Loader_ChainTest extends PHPUnit_Framework_TestCase
         $path = dirname(__FILE__).'/../Fixtures';
         $loader = new Twig_Loader_Chain(array(
             new Twig_Loader_Array(array('foo' => 'bar')),
-            new Twig_Loader_Array(array('errors/index.html' => 'baz')),
+            new Twig_Loader_Array(array('errors/index.html.old' => 'baz')),
             new Twig_Loader_Filesystem(array($path)),
         ));
 
         $this->assertEquals('foo', $loader->getSourceContext('foo')->getName());
         $this->assertSame('', $loader->getSourceContext('foo')->getPath());
 
-        $this->assertEquals('errors/index.html', $loader->getSourceContext('errors/index.html')->getName());
-        $this->assertSame('', $loader->getSourceContext('errors/index.html')->getPath());
-        $this->assertEquals('baz', $loader->getSourceContext('errors/index.html')->getCode());
+        $this->assertEquals('errors/index.html.old', $loader->getSourceContext('errors/index.html.old')->getName());
+        $this->assertSame('', $loader->getSourceContext('errors/index.html.old')->getPath());
+        $this->assertEquals('baz', $loader->getSourceContext('errors/index.html.old')->getCode());
 
         $this->assertEquals('errors/base.html', $loader->getSourceContext('errors/base.html')->getName());
         $this->assertEquals(realpath($path.'/errors/base.html'), realpath($loader->getSourceContext('errors/base.html')->getPath()));

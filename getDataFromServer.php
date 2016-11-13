@@ -281,15 +281,12 @@ function getListOfProjectPlus()
 {
     $query = new BackendlessDataQuery();
     $query->setPageSize(10);
-
     $result = Backendless::$Data->of( "DataStore" )->find( $query );
     $numberOfLines = $result->totalObjectsCount();
     $pageSize = $result->pageSize();
     $countOfPages = floor($numberOfLines/$pageSize);
     $count=0;
     $res=$result->getAsObject();
-
-
     for ($i=0; $i<=$countOfPages; $i++){
         foreach ($res as $key=>$val)
         {
@@ -309,5 +306,47 @@ function getListOfProjectPlus()
         $res=$result->getAsObject();
 
     }
+}
 
+function getTotalHours()
+{
+    $query = new BackendlessDataQuery();
+    $query->setPageSize(10);
+    $result = Backendless::$Data->of( "DataStore" )->find( $query );
+    $numberOfLines = $result->totalObjectsCount();
+    $pageSize = $result->pageSize();
+    $countOfPages = floor($numberOfLines/$pageSize);
+    $count=0;
+    $res=$result->getAsObject();
+    $getTotalEstimated=0;$getTotalSpentTime=0;$getNonBillblEstimated=0;$getNonBillblSpentTime=0;
+    $getBillblEstimated=0;$getBillblSpentTime=0;
+
+    for ($i=0; $i<=$countOfPages; $i++){
+        foreach ($res as $key=>$val)
+        {
+            $count++;
+            //echo $res[$key]->project;
+            //echo $res[$key]->assignee;
+            //echo $res[$key]->nonBil;
+            if($res[$key]->nonBil == "Yes"){
+                $getNonBillblEstimated = $getNonBillblEstimated + strval($res[$key]->estimated);
+                $getNonBillblSpentTime = $getNonBillblSpentTime + strval($res[$key]->spentTime);
+            } else{
+                $getBillblEstimated = $getBillblEstimated + strval($res[$key]->estimated);
+                $getBillblSpentTime = $getBillblSpentTime + strval($res[$key]->spentTime);
+            }
+            $getTotalEstimated = $getTotalEstimated + strval($res[$key]->estimated);
+            $getTotalSpentTime = $getTotalSpentTime + strval($res[$key]->spentTime);
+        }
+        $result->loadNextPage();
+        $res=$result->getAsObject();
+    }
+    $getTotalHours = array( "TotalEstimated"=>$getTotalEstimated,
+                            "NonBillblEstimated"=>$getNonBillblEstimated,
+                            "BillblEstimated"=>$getBillblEstimated,
+                            "TotalSpentTime"=>$getTotalSpentTime,
+                            "NonBillblSpentTime"=>$getNonBillblSpentTime,
+                            "BillblSpentTime"=>$getBillblSpentTime);
+
+    return $getTotalHours;
 }

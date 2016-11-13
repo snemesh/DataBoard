@@ -1,3 +1,6 @@
+<?php
+  error_reporting( E_ERROR );
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -104,6 +107,13 @@
                       <li><a href="tables_dynamic.html">Table Dynamic</a></li>
                     </ul>
                   </li>
+
+                  <li><a><i class="fa fa-flask"></i> Test Arrea <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="../../../searchData.php">SearchData</a></li>
+                    </ul>
+                  </li>
+
                 </ul>
               </div>
             </div>

@@ -6,9 +6,19 @@ use backendless\model\BackendlessUser;
 use backendless\services\persistence\BackendlessDataQuery;
 //use backendless\BackendlessAutoloader;
 //use backendless\services\persistence;
-use DataStore;
-use Assignee;
+//use DataStore;
+//use Assignee;
+
 include "vendor/backendless/autoload.php";
+
+
+function __autoload( $className ) {
+    $className = str_replace( "..", "", $className );
+    require_once( "$className.php" );
+    echo "Loaded $className.php<br>";
+}
+
+
 
 function getDataFromReport($link)
 {
@@ -58,6 +68,24 @@ function DeleteDataStore()
 
     $asw =json_decode($result, true);
     echo ("The process of deleting data was finished<br>");
+    return $asw;
+}
+
+function DeleteKpiTable()
+{
+    $url = 'http://api.backendless.com/v1/data/bulk/kpiTable?where=created%3E0';
+    $headers = array(
+        'application-id: 70518918-F4D9-EA7A-FF91-7E981EF9CF00',
+        'secret-key: 05193E30-2613-A4C8-FFC7-2431B4935800'
+    );
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $result = curl_exec($ch);
+    curl_close($ch);
+    $asw =json_decode($result, true);
     return $asw;
 }
 
@@ -205,23 +233,6 @@ function getAllProjects(){
     echo "Page size =>" . $pageSize . "<br>";
     $countOfPages = floor($numberOfLines/$pageSize);
     echo "Number of Pages =>" . $countOfPages . "<br>";
-    $res=$result->getAsArrays();
-    print_r($res);
-    //print_r($result);
-    $result->loadNextPage();
-    print_r($result);
-    //$result->loadNextPage();
-    //print_r($result);
-    //print_r($result);
-    //print_r($result->data[0]->created);
-
-    //echo $result
-    //print_r($getProjects);
-//    foreach ($result as $key => $val) {
-//        print_r( $val);
-//        //$result = $result[$key]->project;
-//        //echo $result."<br>";
-//    }
 }
 
 function getListOfProject()
@@ -259,21 +270,6 @@ function getListOfProject()
 
     }
     echo "</tbody>";
-
-//                        <tbody>
-//                        <tr class="even pointer">
-//                          <td class="a-center "><input type="checkbox" class="flat" name="table_records"></td>
-//                          <td class=" ">121000040</td>
-//                          <td class=" ">May 23, 2014 11:47:56 PM </td>
-//                          <td class=" ">121000210 <i class="success fa fa-long-arrow-up"></i></td>
-//                          <td class=" ">John Blank L</td>
-//                          <td class=" ">Paid</td>
-//                          <td class="a-right a-right ">$7.45</td>
-//                          <td class=" last"><a href="#">View</a>
-//                          </td>
-//                        </tr>
-//                        </tbody>
-
 
 }
 
@@ -349,4 +345,29 @@ function getTotalHours()
                             "BillblSpentTime"=>$getBillblSpentTime);
 
     return $getTotalHours;
+
+}
+
+function createTableKPI(){
+
+    $getKPI = getTotalHours();
+    $getKPI["TotalEstimated"];
+
+    $kpiTable = new KpiTable();
+    $kpiTable->setTotalEstimated($getKPI["TotalEstimated"]);
+    $kpiTable->setNonBillblEstimated($getKPI["NonBillblEstimated"]);
+    $kpiTable->setBillblEstimated($getKPI["BillblEstimated"]);
+
+    $kpiTable->setTotalSpentTime($getKPI["TotalSpentTime"]);
+    $kpiTable->setNonBillblSpentTime($getKPI["NonBillblSpentTime"]);
+    $kpiTable->setBillblSpentTime($getKPI["BillblSpentTime"]);
+
+    if(doesTableExists("kpiTable")){
+        DeleteKpiTable();
+        $saveKpiTable = Backendless::$Persistence->save($kpiTable );
+    } else {
+        $saveKpiTable = Backendless::$Persistence->save(new $kpiTable );
+    }
+
+
 }

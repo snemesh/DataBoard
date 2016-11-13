@@ -3,12 +3,12 @@
 ini_set('display_errors',3);
 error_reporting(E_ALL);
 
+
 include "getDataFromServer.php";
 //----------------------------------------
 loginToTheSystem("snemesh@gmail.com","123;");
-getTotalHours();
-//getListOfProject();
 
+createTableKPI();
 
 //echo createNewDataStoreTable();
 //loadDataToExistDataStoreTable();

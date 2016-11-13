@@ -208,8 +208,8 @@ function getAllProjects(){
     $res=$result->getAsArrays();
     print_r($res);
     //print_r($result);
-    //$result->loadNextPage();
-    //print_r($result);
+    $result->loadNextPage();
+    print_r($result);
     //$result->loadNextPage();
     //print_r($result);
     //print_r($result);
@@ -224,3 +224,90 @@ function getAllProjects(){
 //    }
 }
 
+function getListOfProject()
+{
+    $query = new BackendlessDataQuery();
+    $query->setPageSize(10);
+
+    $result = Backendless::$Data->of( "DataStore" )->find( $query );
+    $numberOfLines = $result->totalObjectsCount();
+    $pageSize = $result->pageSize();
+    $countOfPages = floor($numberOfLines/$pageSize);
+    $count=0;
+    echo "<tbody>";
+    $res=$result->getAsObject();
+
+    for ($i=0; $i<=$countOfPages; $i++){
+        foreach ($res as $key=>$val)
+        {
+            $count++;
+            echo "<tr class='even pointer'>";
+            echo "<td class='a-center '><input type='checkbox' class='flat' name='table_records'></td>";
+            echo "<td class=' '>" . $count .  "</td>" ;
+            echo "<td class=' '>" . $res[$key]->project .  "</td>" ;
+            echo "<td class=' '>" . $res[$key]->assignee . "</td>";
+            echo "<td class=' '>" . $res[$key]->nonBil .   "</td>";
+            echo "<td class=' '>" . $res[$key]->estimated . "</td>";
+            echo "<td class=' '>" . $res[$key]->spentTime . "</td>";
+            echo "<td class=' '>" . $res[$key]->created .   "</td>";
+            echo "<td class=' last'><a href='#'>View</a></td>";
+            echo "</tr>";
+
+        }
+        $result->loadNextPage();
+        $res=$result->getAsObject();
+
+    }
+    echo "</tbody>";
+
+//                        <tbody>
+//                        <tr class="even pointer">
+//                          <td class="a-center "><input type="checkbox" class="flat" name="table_records"></td>
+//                          <td class=" ">121000040</td>
+//                          <td class=" ">May 23, 2014 11:47:56 PM </td>
+//                          <td class=" ">121000210 <i class="success fa fa-long-arrow-up"></i></td>
+//                          <td class=" ">John Blank L</td>
+//                          <td class=" ">Paid</td>
+//                          <td class="a-right a-right ">$7.45</td>
+//                          <td class=" last"><a href="#">View</a>
+//                          </td>
+//                        </tr>
+//                        </tbody>
+
+
+}
+
+function getListOfProjectPlus()
+{
+    $query = new BackendlessDataQuery();
+    $query->setPageSize(10);
+
+    $result = Backendless::$Data->of( "DataStore" )->find( $query );
+    $numberOfLines = $result->totalObjectsCount();
+    $pageSize = $result->pageSize();
+    $countOfPages = floor($numberOfLines/$pageSize);
+    $count=0;
+    $res=$result->getAsObject();
+
+
+    for ($i=0; $i<=$countOfPages; $i++){
+        foreach ($res as $key=>$val)
+        {
+            $count++;
+            echo "<tr>";
+            echo "<td>" . $count .  "</td>" ;
+            echo "<td>" . $res[$key]->project .  "</td>" ;
+            echo "<td>" . $res[$key]->assignee . "</td>";
+            echo "<td>" . $res[$key]->nonBil .   "</td>";
+            echo "<td>" . $res[$key]->estimated . "</td>";
+            echo "<td>" . $res[$key]->spentTime . "</td>";
+            echo "<td>" . $res[$key]->created .   "</td>";
+            echo "</tr>";
+
+        }
+        $result->loadNextPage();
+        $res=$result->getAsObject();
+
+    }
+
+}

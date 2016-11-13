@@ -5,8 +5,10 @@ error_reporting(E_ALL);
 
 include "getDataFromServer.php";
 //----------------------------------------
+loginToTheSystem("snemesh@gmail.com","123;");
+//getListOfProject();
+getAllProjects();
 
-loginToTheSystem("snemesh@gmail.com","123");
 //echo createNewDataStoreTable();
 //loadDataToExistDataStoreTable();
 //echo getAllProjects();

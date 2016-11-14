@@ -8,7 +8,10 @@ include "getDataFromServer.php";
 //----------------------------------------
 loginToTheSystem("snemesh@gmail.com","123;");
 
-createTableKPI();
+//createTableKPI("none");
+$totalNonBillSpent= getTotalSpentNonBill();
+echo $totalNonBillSpent[0]."<br>";
+echo $totalNonBillSpent[1]."<br>";
 
 //echo createNewDataStoreTable();
 //loadDataToExistDataStoreTable();

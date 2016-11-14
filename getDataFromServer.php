@@ -8,15 +8,11 @@ use backendless\services\persistence\BackendlessDataQuery;
 //use backendless\services\persistence;
 //use DataStore;
 //use Assignee;
-
+require_once( "KpiTable.php" );
 include "vendor/backendless/autoload.php";
 
 
-function __autoload( $className ) {
-    $className = str_replace( "..", "", $className );
-    require_once( "$className.php" );
-    echo "Loaded $className.php<br>";
-}
+
 
 
 
@@ -187,9 +183,13 @@ function addAssignee($assigneeUser, $salary, $hourlyRate){
 }
 
 function doesTableExists($someTable){
-    $ress = Backendless::$Data->of($someTable)->find()->getAsObject();
-    if(!$ress) {
-        return false; //The table doesn't exist
+    echo "Cheking the table ". $someTable . "<br>";
+    try {
+        Backendless::$Data->of($someTable)->find()->getAsObject();
+    }
+    catch (Exception $ex){
+        echo "The table dosen't exist";
+        return false;
     }
     return true; // The table exist;
 
@@ -298,7 +298,7 @@ function getListOfProjectPlus()
             echo "</tr>";
 
         }
-        $result->loadNextPage();
+        //$result->loadNextPage();
         $res=$result->getAsObject();
 
     }
@@ -348,10 +348,10 @@ function getTotalHours()
 
 }
 
-function createTableKPI(){
-
+function createTableKPI($doDelete){
+//if you need to delete existed data in the table,
+// please specify 'delete' argument like a parameter for the function
     $getKPI = getTotalHours();
-    $getKPI["TotalEstimated"];
 
     $kpiTable = new KpiTable();
     $kpiTable->setTotalEstimated($getKPI["TotalEstimated"]);
@@ -362,12 +362,49 @@ function createTableKPI(){
     $kpiTable->setNonBillblSpentTime($getKPI["NonBillblSpentTime"]);
     $kpiTable->setBillblSpentTime($getKPI["BillblSpentTime"]);
 
-    if(doesTableExists("kpiTable")){
-        DeleteKpiTable();
-        $saveKpiTable = Backendless::$Persistence->save($kpiTable );
+    if(doesTableExists("KpiTable")==true){
+        if ($doDelete=="delete") {
+            DeleteKpiTable();
+        }
+        $saveKpiTable = Backendless::$Persistence->save($kpiTable);
     } else {
-        $saveKpiTable = Backendless::$Persistence->save(new $kpiTable );
+        $saveKpiTable = Backendless::$Persistence->save(new $kpiTable);
     }
 
+}
 
+function getTotalEstimatedHours(){
+    $query = new BackendlessDataQuery();
+    $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
+    foreach ($result as $key=>$val) {
+        $ressult[] = $result[$key]->totalEstimated;
+    }
+    return $ressult;
+}
+
+function getTotalSpentHours(){
+    $query = new BackendlessDataQuery();
+    $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
+    foreach ($result as $key=>$val) {
+        $ressult[] = $result[$key]->totalSpentTime;
+    }
+    return $ressult;
+}
+
+
+function getTotalSpentBill(){
+    $query = new BackendlessDataQuery();
+    $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
+    foreach ($result as $key=>$val) {
+        $ressult[] = $result[$key]->billblSpentTime;
+    }
+    return $ressult;
+}
+function getTotalSpentNonBill(){
+    $query = new BackendlessDataQuery();
+    $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
+    foreach ($result as $key=>$val) {
+        $ressult[] = $result[$key]->nonBillblSpentTime;
+    }
+    return $ressult;
 }

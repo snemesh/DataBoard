@@ -9,12 +9,22 @@ use backendless\services\persistence\BackendlessDataQuery;
 //use DataStore;
 //use Assignee;
 require_once( "KpiTable.php" );
+require_once( "DataStore.php" );
+require_once( "Assignee.php" );
 include "vendor/backendless/autoload.php";
 
 
 
 
-
+function rm_from_array($needle, &$array, $all = true){
+    if(!$all){
+        if(FALSE !== $key = array_search($needle,$array)) unset($array[$key]);
+        return;
+    }
+    foreach(array_keys($array,$needle) as $key){
+        unset($array[$key]);
+    }
+}
 
 function getDataFromReport($link)
 {
@@ -96,12 +106,12 @@ function loadDataToExistDataStoreTable()
         $newDataBlock->setAssignee($col[2]);
         $newDataBlock->setEstimated($col[3]);
         $newDataBlock->setSpentTime($col[4]);
-        $saved_newDataBlock = Backendless::$Persistence->save(new $newDataBlock);
+        $saved_newDataBlock = Backendless::$Persistence->save($newDataBlock);
     }
     echo ("The process of loading data to the base was finished<br>");
 }
 
-function createNewDataStoreTable()
+function createNewDataStoreTable() //функция для создания таблицы DataStore с тестовыми данными на случай удаления
 {
     echo ("Start process of loading data to the base<br>");
     $DataStore = new DataStore();
@@ -115,17 +125,17 @@ function createNewDataStoreTable()
     print_r($saved_newDataBlock);
 }
 
-function createTableAssignee(){
-
+function createTableAssignee() //функция для создания таблицы Assignee с тестовыми данными на случай удаления
+{
     $assignee = new Assignee();
     $assignee->setAssigneeName("user");
     $assignee->setSalary(1000);
     $assignee->setHourlyRate(4.5);
-    $saveAssignee = Backendless::$Persistence->save( $assignee );
+    $saveAssignee = Backendless::$Persistence->save(new $assignee );
     return $saveAssignee;
 }
 
-function logOutBack($someUser)
+function logOutBack($someUser) //вылогинить пользователя из системы
 {
     try {
         $res = Backendless::$UserService->logout($someUser);
@@ -136,44 +146,35 @@ function logOutBack($someUser)
     return true;
 }
 
-function loginToTheSystem($someLogin, $somePass)
+function loginToTheSystem($someLogin, $somePass) //логин пользрвателя в систему
 {
     Backendless::initApp('70518918-F4D9-EA7A-FF91-7E981EF9CF00', '05193E30-2613-A4C8-FFC7-2431B4935800', 'v1');
     $curUser = $someLogin;
     $curPass = $somePass;
-
-    //echo "curUser => ".$curUser. "  curPass => ". $curPass;
     $user = new BackendlessUser();
     $user->setEmail( $curUser );
     $user->setPassword( $curPass );
-
-
     try {
 
         $res = Backendless::$UserService->login($curUser, $curPass);
     }
     catch(Exception $ex){
-        //echo $ex->getMessage();
         $resultOfAuth = false;
         return $resultOfAuth;
     }
-//    $user = Backendless::$UserService->login($someLogin, $somePass);
-//    $user->setName("Nemesh Sergey");
-//    Backendless::$UserService->update( $user );
-
     if($user->email=!$curUser){
         $resultOfAuth = false;
     } else {
         $resultOfAuth = true;
     }
-
     $_POST["username"] = $res->name;
     return $resultOfAuth;
 }
 
 
 
-function addAssignee($assigneeUser, $salary, $hourlyRate){
+function addAssignee($assigneeUser, $salary, $hourlyRate) //добавить данные с рейтами в таличку Assignee
+{
     $assignee = new Assignee();
     $assignee->setAssigneeName($assigneeUser);
     $assignee->setSalary($salary);
@@ -182,7 +183,7 @@ function addAssignee($assigneeUser, $salary, $hourlyRate){
     return $saveAssignee;
 }
 
-function doesTableExists($someTable){
+function doesTableExists($someTable){ //проверить существует ли табличка в системе
     echo "Cheking the table ". $someTable . "<br>";
     try {
         Backendless::$Data->of($someTable)->find()->getAsObject();
@@ -195,8 +196,8 @@ function doesTableExists($someTable){
 
 }
 
-function projectResults($someProjectName)
-{
+function projectResults($someProjectName) //посчиать промежуточные результаты из DataStore
+{                                         // по определенному проекту
     $sumOfSpentTime = 0;
     $sumOfestimated = 0;
     $projectName = '';
@@ -221,9 +222,9 @@ function projectResults($someProjectName)
     echo $sumOfestimated . "<br>";
 }
 
-function getAllProjects(){
-    echo "Start";
-    $query = new BackendlessDataQuery();
+function getAllProjects(){ //прлучить все записи таблицы DataStore и посчитать сколько
+    echo "Start";          //в таблицу количество строк, количесство строк на странице
+    $query = new BackendlessDataQuery(); //количество страниц
     $query->setPageSize(10);
 
     $result = Backendless::$Data->of( "DataStore" )->find( $query );
@@ -235,7 +236,7 @@ function getAllProjects(){
     echo "Number of Pages =>" . $countOfPages . "<br>";
 }
 
-function getListOfProject()
+function getListOfProject() //получить список данных из таблички DataStore и вывести их ввиде таблтчки
 {
     $query = new BackendlessDataQuery();
     $query->setPageSize(10);
@@ -273,7 +274,7 @@ function getListOfProject()
 
 }
 
-function getListOfProjectPlus()
+function getListOfProjectPlus() // получить данные из DataStore и вывести их на фронте
 {
     $query = new BackendlessDataQuery();
     $query->setPageSize(10);
@@ -298,14 +299,14 @@ function getListOfProjectPlus()
             echo "</tr>";
 
         }
-        //$result->loadNextPage();
+        $result->loadNextPage();
         $res=$result->getAsObject();
 
     }
 }
 
-function getTotalHours()
-{
+function getTotalHours() //посчитать основные показатели в тадичке DataStore, возвращает масив данных
+{                        // с TotalEstimated - кол-во заэкстимеченых часов, TotalSpentTime...
     $query = new BackendlessDataQuery();
     $query->setPageSize(10);
     $result = Backendless::$Data->of( "DataStore" )->find( $query );
@@ -333,16 +334,28 @@ function getTotalHours()
             }
             $getTotalEstimated = $getTotalEstimated + strval($res[$key]->estimated);
             $getTotalSpentTime = $getTotalSpentTime + strval($res[$key]->spentTime);
+            $getTotalProjectsTmp[]=$res[$key]->project;
+            $getTotalPMTmp[]=$res[$key]->assignee;
+
         }
         $result->loadNextPage();
         $res=$result->getAsObject();
     }
+    $getTotalProjects = array_unique($getTotalProjectsTmp);
+    $getTotalProjects = count($getTotalProjects);
+
+    $getTotalPM = array_unique($getTotalPMTmp);
+    rm_from_array("-", $getTotalPM, true);
+    $getTotalPM = count($getTotalPM);
+
     $getTotalHours = array( "TotalEstimated"=>$getTotalEstimated,
                             "NonBillblEstimated"=>$getNonBillblEstimated,
                             "BillblEstimated"=>$getBillblEstimated,
                             "TotalSpentTime"=>$getTotalSpentTime,
                             "NonBillblSpentTime"=>$getNonBillblSpentTime,
-                            "BillblSpentTime"=>$getBillblSpentTime);
+                            "BillblSpentTime"=>$getBillblSpentTime,
+                            "TotalProjects"=>$getTotalProjects,
+                            "TotalPM"=>$getTotalPM);
 
     return $getTotalHours;
 
@@ -351,8 +364,8 @@ function getTotalHours()
 function createTableKPI($doDelete){
 //if you need to delete existed data in the table,
 // please specify 'delete' argument like a parameter for the function
-    $getKPI = getTotalHours();
-
+    $getKPI = getTotalHours(); // высчитываем основные показатели из таблички DataStore, получаем массив
+                               // с данными
     $kpiTable = new KpiTable();
     $kpiTable->setTotalEstimated($getKPI["TotalEstimated"]);
     $kpiTable->setNonBillblEstimated($getKPI["NonBillblEstimated"]);
@@ -361,19 +374,22 @@ function createTableKPI($doDelete){
     $kpiTable->setTotalSpentTime($getKPI["TotalSpentTime"]);
     $kpiTable->setNonBillblSpentTime($getKPI["NonBillblSpentTime"]);
     $kpiTable->setBillblSpentTime($getKPI["BillblSpentTime"]);
+    $kpiTable->setTotalProjects($getKPI["TotalProjects"]);
+    $kpiTable->setTotalPM($getKPI["TotalPM"]);
+
 
     if(doesTableExists("KpiTable")==true){
         if ($doDelete=="delete") {
             DeleteKpiTable();
         }
-        $saveKpiTable = Backendless::$Persistence->save($kpiTable);
+        $saveKpiTable = Backendless::$Persistence->save($kpiTable); //сохраняем в табличку
     } else {
-        $saveKpiTable = Backendless::$Persistence->save(new $kpiTable);
+        $saveKpiTable = Backendless::$Persistence->save(new $kpiTable); //создаем табличку и сохраняем
     }
 
 }
 
-function getTotalEstimatedHours(){
+function getTotalEstimatedHours(){ //получаем totalEstimated из KpiTable
     $query = new BackendlessDataQuery();
     $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
     foreach ($result as $key=>$val) {
@@ -382,7 +398,7 @@ function getTotalEstimatedHours(){
     return $ressult;
 }
 
-function getTotalSpentHours(){
+function getTotalSpentHours(){ //получаем totalSpentTime из KpiTable
     $query = new BackendlessDataQuery();
     $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
     foreach ($result as $key=>$val) {
@@ -392,7 +408,7 @@ function getTotalSpentHours(){
 }
 
 
-function getTotalSpentBill(){
+function getTotalSpentBill(){ //получаем billblSpentTime из KpiTable
     $query = new BackendlessDataQuery();
     $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
     foreach ($result as $key=>$val) {
@@ -408,3 +424,21 @@ function getTotalSpentNonBill(){
     }
     return $ressult;
 }
+function getTotalPM(){
+    $query = new BackendlessDataQuery();
+    $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
+    foreach ($result as $key=>$val) {
+        $ressult[] = $result[$key]->TotalPM;
+    }
+    return $ressult;
+}
+
+function getTotalProjects(){
+    $query = new BackendlessDataQuery();
+    $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
+    foreach ($result as $key=>$val) {
+        $ressult[] = $result[$key]->totalProjects;
+    }
+    return $ressult;
+}
+

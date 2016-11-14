@@ -8,6 +8,8 @@ class KpiTable
     private $totalSpentTime;
     private $nonBillblSpentTime;
     private $billblSpentTime;
+    private $totalProjects;
+    private $totalPM;
 
     public function getBillblEstimated()
     {
@@ -58,5 +60,32 @@ class KpiTable
     public function setTotalSpentTime($totalSpentTime)
     {
         $this->totalSpentTime = $totalSpentTime;
+    }
+
+
+    public function setTotalPM($totalPM)
+    {
+        $this->totalPM = $totalPM;
+    }
+
+    public function setTotalProjects($totalProjects)
+    {
+        $this->totalProjects = $totalProjects;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTotalPM()
+    {
+        return $this->totalPM;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTotalProjects()
+    {
+        return $this->totalProjects;
     }
 }

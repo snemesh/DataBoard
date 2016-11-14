@@ -7,11 +7,17 @@ error_reporting(E_ALL);
 include "getDataFromServer.php";
 //----------------------------------------
 loginToTheSystem("snemesh@gmail.com","123;");
+echo "Login Success!<br>";
+DeleteDataStore(); //удаляем предвариетльно все данные с таблицы DataStore на beckendLess
+echo "Delete data - Success!<br>";
+loadDataToExistDataStoreTable(); // загрузка данных в табицу DataStore
+echo "Lead data from Jira - Success!<br>";
+createTableKPI("none"); //добавляем данные в табличку с KPI
+echo "Create KPI data - Success!<br>";
 
-//createTableKPI("none");
-$totalNonBillSpent= getTotalSpentNonBill();
-echo $totalNonBillSpent[0]."<br>";
-echo $totalNonBillSpent[1]."<br>";
+//$totalPM= getTotalPM();
+//echo $totalNonBillSpent[0]."<br>";
+//echo $totalNonBillSpent[1]."<br>";
 
 //echo createNewDataStoreTable();
 //loadDataToExistDataStoreTable();

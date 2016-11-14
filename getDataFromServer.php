@@ -428,7 +428,7 @@ function getTotalPM(){
     $query = new BackendlessDataQuery();
     $result = Backendless::$Data->of( "KpiTable" )->find( $query )->getAsObject();
     foreach ($result as $key=>$val) {
-        $ressult[] = $result[$key]->TotalPM;
+        $ressult[] = $result[$key]->totalPM;
     }
     return $ressult;
 }

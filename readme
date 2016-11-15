@@ -1,1 +1,12 @@
-Information about the project
+Usage
+
+composer dump-autoload для обновления фалов
+
+composer require monolog/monolog - что бы подключить monolog
+http://propelorm.org/documentation/01-installation.html ставим propel для работы с ьазой данных
+модели базы данных хрянятся в дирректории kpiApp
+
+Each time you will update your schema, you should run propel sql:build and propel sql:insert.
+bash$ propel sql:build //or propel sql:build --overwrite
+bash$ propel sql:insert
+

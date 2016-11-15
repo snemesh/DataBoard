@@ -18,5 +18,8 @@
         "psr-4": {
             "backendless\\": "backendless/src"
         }
+    },
+    "autoload": {
+        "classmap": ["generated-classes/"]
     }
 }

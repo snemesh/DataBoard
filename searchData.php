@@ -7,6 +7,7 @@ error_reporting(E_ALL);
 include "getDataFromServer.php";
 //----------------------------------------
 loginToTheSystem("snemesh@gmail.com","123;");
+
 //echo "Login Success!<br>";
 //DeleteDataStore(); //удаляем предвариетльно все данные с таблицы DataStore на beckendLess
 //echo "Delete data - Success!<br>";
@@ -15,8 +16,6 @@ loginToTheSystem("snemesh@gmail.com","123;");
 //createTableKPI("none"); //добавляем данные в табличку с KPI
 //echo "Create KPI data - Success!<br>";
 
-$tmp=getTotalPM();
-echo $tmp[0];
 
 //$totalPM= getTotalPM();
 //echo $totalNonBillSpent[0]."<br>";

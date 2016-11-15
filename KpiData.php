@@ -6,7 +6,7 @@
  * Time: 15:49
  */
 
-
+namespace backuse;
 class KpiData
 {
 

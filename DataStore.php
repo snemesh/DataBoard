@@ -1,4 +1,5 @@
 <?php
+namespace backuse;
 class DataStore
 {
     private $project;

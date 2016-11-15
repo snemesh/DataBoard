@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="kpidata" defaultIdMethod="native">
+    <table name="mydatastore" phpName="myDataStore">
+        <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+        <column name="project" type="varchar" size="255" required="false" />
+        <column name="nonbil" type="varchar" size="24" required="false" phpName="nonBil"/>
+        <column name="assignee" type="double" required="false"/>
+        <column name="estimated" type="double" required="false"/>
+        <column name="$spenttime" type="double" required="false" phpName="$spentTime"/>
+    </table>
+    <table name="myassignee" phpName="myAssignee">
+        <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+        <column name="assigneename" type="varchar" size="128" required="false" phpName="assigneeName"/>
+        <column name="salary" type="double" required="false"/>
+        <column name="hourlyrate" type="double"  required="false" phpName="hourlyRate"/>
+    </table>
+    <table name="mykpitable" phpName="myKpiTable">
+        <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+        <column name="totalestimated" type="double" required="false" phpName="totalEstimated"/>
+        <column name="nonbillblestimated" type="double" required="false" phpName="nonBillblEstimated"/>
+        <column name="billblestimated" type="double" required="false" phpName="billblEstimated"/>
+        <column name="totalspenttime" type="double" required="false" phpName="totalSpentTime"/>
+        <column name="nonbillblspenttime" type="double" required="false" phpName="nonBillblSpentTime"/>
+        <column name="billblspentTime" type="double" required="false" phpName="billblspentTime"/>
+        <column name="totalprojects" type="double" required="false" phpName="totalProjects"/>
+        <column name="totalpm" type="double" required="false" phpName="totalPM"/>
+    </table>
+</database>

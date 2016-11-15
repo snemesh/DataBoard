@@ -13,7 +13,7 @@ function setPageTitle(page, newTitle) {
     }, newTitle);
 }
 
-p.open("../test/webpage-spec-frames/index.html.old", function(status) {
+p.open("../test/webpage-spec-frames/index.html", function(status) {
     console.log("pageTitle(): " + pageTitle(p));
     console.log("currentFrameName(): "+p.currentFrameName());
     console.log("childFramesCount(): "+p.childFramesCount());

@@ -1,4 +1,5 @@
 <?php
+namespace backuse;
 class Assignee
 {
     private $assignee_name;

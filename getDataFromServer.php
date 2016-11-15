@@ -277,7 +277,7 @@ function getListOfProject() //получить список данных из т
 function getListOfProjectPlus() // получить данные из DataStore и вывести их на фронте
 {
     $query = new BackendlessDataQuery();
-    $query->setPageSize(10);
+    $query->setPageSize(100);
     $result = Backendless::$Data->of( "DataStore" )->find( $query );
     $numberOfLines = $result->totalObjectsCount();
     $pageSize = $result->pageSize();
@@ -304,6 +304,7 @@ function getListOfProjectPlus() // получить данные из DataStore 
 
     }
 }
+
 
 function getTotalHours() //посчитать основные показатели в тадичке DataStore, возвращает масив данных
 {                        // с TotalEstimated - кол-во заэкстимеченых часов, TotalSpentTime...
